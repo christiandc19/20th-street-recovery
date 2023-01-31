@@ -62,23 +62,22 @@ const WhatWeDo = () => {
                 <br /> <br />
 
                 <div className='Whoweare-icon'>
-
                     <div className='icon'>
                     <img src={Icon1} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
-                    <p>DEDICATED STAFF</p>
+                    <p><span>DEDICATED STAFF</span> <br/> Porttitor ullamcorper hendrerit curabitur fusce potenti vehicula laoreet pede praesent.</p>
                     </div>
 
                     <div className='icon'>
                     <img src={Icon2} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
-                    <p>PROVEN METHODS</p>
+                    <p><span>PROVEM METHODS</span> <br/> Porttitor ullamcorper hendrerit curabitur fusce potenti vehicula laoreet pede praesent.</p>
                     </div>
 
                     <div className='icon'>
                     <img src={Icon3} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
-                    <p>24/7 SUPPORT</p>
+                    <p><span>24/7 SUPPORT</span> <br/> Porttitor ullamcorper hendrerit curabitur fusce potenti vehicula laoreet pede praesent.</p>
                     </div>
-
                 </div>
+                
             </div>
         </Fade>
     </div>
