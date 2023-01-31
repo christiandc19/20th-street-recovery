@@ -14,7 +14,6 @@ const Alcohol = () => {
             </div>
                 <div className="sa-content">
                     <Fade top>
-                    <h2>- ADDICTION</h2>
                     <h1>ALCOHOLISM</h1>
                     </Fade>
             </div>

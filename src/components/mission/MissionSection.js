@@ -14,7 +14,7 @@ const MissionSection = () => {
     return (
         <>
         <div className='mission-section container'>
-        <h1>OUR MISSION</h1>
+        <h1>YOUR HEALTH, OUR MISSION</h1>
         <p>We seek to provide the highest quality care for any addiction situation to create long-term sobriety in a safe and effective environment built on love, acceptance, and tolerance. We work every day to create addict programming that gives you the time and tools needed to live a sober life today, and then vigorously push you to fulfill your dreams tomorrow. </p>
             <div>
                 <div className="content">
