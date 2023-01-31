@@ -78,9 +78,9 @@ const ContactForm = () => {
 </section>
  
 
-<div className="iframe container">
+{/* <div className="iframe container">
     <iframe title="map" width="100" height="250" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.243101468974!2d-116.46710449999999!3d33.7802199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db03279aebb10b%3A0xa32a61dfed0153b4!2s68487%20E%20Palm%20Canyon%20Dr%20%2344%2C%20Cathedral%20City%2C%20CA%2092234!5e0!3m2!1sen!2sus!4v1674852246180!5m2!1sen!2sus"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
-</div>
+</div> */}
 
 
 
