@@ -10,17 +10,10 @@ import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
-import SAPhp from './routes/SA-PHP';
-import SAIop from './routes/SA-IOP';
-
 import COCAINE from './routes/COCAINE';
 import ALCOHOL from './routes/ALCOHOL';
 
 import AcuteStressDisorder from './routes/AcuteStressDisorder';
-import MHPhp from './routes/MH-PHP';
-import MHIop from './routes/MH-IOP';
-import MHOp from './routes/MH-OP';
-
 import Jobs from './routes/JOBS';
 
 
@@ -32,20 +25,12 @@ ReactDOM.render(
       <Route exact path='/' element={<App />} />
       <Route exact path='/alcohol' element={<ALCOHOL />} />
       <Route exact path='/cocaine' element={<COCAINE />} />
-      <Route exact path='/substance-abuse-php' element={<SAPhp />} />
-      <Route exact path='/substance-abuse-iop' element={<SAIop />} />
-
 
 
 
       <Route exact path='/acute-stress-disorder' element={<AcuteStressDisorder />} />
-      <Route exact path='/mental-health-php' element={<MHPhp />} />
-      <Route exact path='/mental-health-iop' element={<MHIop />} />
-      <Route exact path='/mental-health-op' element={<MHOp />} />
-
 
       <Route exact path='/jobs' element={<Jobs />} />
-
       <Route exact path='/treatment' element={<TreatmentPage />} />
       <Route exact path='/mission' element={<MissionPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />

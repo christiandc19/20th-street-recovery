@@ -94,7 +94,7 @@ const Navbar = () => {
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-op`}> Fentanyl </NavLink> </li>
+                            {/* <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-op`}> Fentanyl </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Heroin</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Kratom </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> MDMA </NavLink> </li>
@@ -103,7 +103,7 @@ const Navbar = () => {
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Opioide </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Oxydone </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Prescription </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Xanax </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Xanax </NavLink> </li> */}
                         </ul>
                     </li>
 
@@ -112,7 +112,7 @@ const Navbar = () => {
                     <li onClick={toggleSubmenu2} className="menu-item sub__menus__arrows" > <Link to="#"> Mental Health <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/substance-abuse-php`}> ADHD</NavLink> </li>
+                            {/* <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/substance-abuse-php`}> ADHD</NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-iop`}> Anger Disorder </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-op`}> Anxiety Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health`}> Bipolar Disorder </NavLink> </li>
@@ -120,7 +120,7 @@ const Navbar = () => {
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-iop`}> Panic Disorder </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> PTSD </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> Schizoaffective Disorder </NavLink> </li>
-                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> Schizophrenia </NavLink> </li>
+                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> Schizophrenia </NavLink> </li> */}
                         </ul>
                     </li>
 

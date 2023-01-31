@@ -10,20 +10,13 @@
 }
 
 .ASDSection-header h1 {
-    margin: 2rem auto;
     font-family: 'Montserrat', sans-serif;
+    text-align: left;
 }
 
 .ASDSection-header p {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 940px) {
-  .ASDSection-wrap {
-    width: 100%;
-  }
 
-
-
-}
 
