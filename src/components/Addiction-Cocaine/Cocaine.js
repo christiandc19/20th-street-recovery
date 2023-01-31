@@ -1,25 +1,25 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 
-import './Alcohol.css'
+import './Cocaine.css'
 
 import Wave from '../../assets/waves.svg'
 
 
-const Alcohol = () => {
+const Cocaine = () => {
     return (
-        <div className='sa submenu'>
+        <div className='cocaine submenu'>
             <div className='hero-divider'>
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
-                <div className="sa-content">
+                <div className="cocaine-content">
                     <Fade top>
                     <h2>- ADDICTION</h2>
-                    <h1>ALCOHOL</h1>
+                    <h1>COCAINE</h1>
                     </Fade>
             </div>
         </div>
     )
 }
 
-export default Alcohol
+export default Cocaine

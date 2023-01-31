@@ -93,7 +93,7 @@ const Navbar = () => {
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Addiction <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-iop`}> Cocaine </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-op`}> Fentanyl </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Heroin</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Kratom </NavLink> </li>
@@ -111,7 +111,7 @@ const Navbar = () => {
 
                     <li onClick={toggleSubmenu2} className="menu-item sub__menus__arrows" > <Link to="#"> Mental Health <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/substance-abuse`}> Acute Stress Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/substance-abuse-php`}> ADHD</NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-iop`}> Anger Disorder </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-op`}> Anxiety Disorder </NavLink> </li>

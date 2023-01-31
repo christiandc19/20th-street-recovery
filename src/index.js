@@ -12,10 +12,11 @@ import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 import SAPhp from './routes/SA-PHP';
 import SAIop from './routes/SA-IOP';
-import SAOp from './routes/SA-OP';
+
+import COCAINE from './routes/COCAINE';
 import ALCOHOL from './routes/ALCOHOL';
 
-import MH from './routes/MH';
+import AcuteStressDisorder from './routes/AcuteStressDisorder';
 import MHPhp from './routes/MH-PHP';
 import MHIop from './routes/MH-IOP';
 import MHOp from './routes/MH-OP';
@@ -30,11 +31,14 @@ ReactDOM.render(
     <Routes>
       <Route exact path='/' element={<App />} />
       <Route exact path='/alcohol' element={<ALCOHOL />} />
+      <Route exact path='/cocaine' element={<COCAINE />} />
       <Route exact path='/substance-abuse-php' element={<SAPhp />} />
       <Route exact path='/substance-abuse-iop' element={<SAIop />} />
-      <Route exact path='/substance-abuse-op' element={<SAOp />} />
 
-      <Route exact path='/mental-health' element={<MH />} />
+
+
+
+      <Route exact path='/acute-stress-disorder' element={<AcuteStressDisorder />} />
       <Route exact path='/mental-health-php' element={<MHPhp />} />
       <Route exact path='/mental-health-iop' element={<MHIop />} />
       <Route exact path='/mental-health-op' element={<MHOp />} />

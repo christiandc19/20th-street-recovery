@@ -2,19 +2,20 @@ import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import OP from '../components/SA-op/Op'
-import OpSection from '../components/SA-op/OpSection'
+import ASD from '../components/MH-ASD/ASD'
+import ASDSection from '../components/MH-ASD/ASDSection'
 
 
-const Op = () => {
+
+const MHealth = () => {
   return (
     <>
     <Navbar /> 
-    <OP />
-    <OpSection />
+    <ASD />
+    <ASDSection />
     <Footer />
      </>
   )
 }
 
-export default Op
+export default MHealth

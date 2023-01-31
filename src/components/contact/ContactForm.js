@@ -3,6 +3,8 @@ import { BsFillPinMapFill } from 'react-icons/bs';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
 
+import Fade from 'react-reveal/Fade';
+
 
 import './ContactForm.css';
 import emailjs from 'emailjs-com'
@@ -31,6 +33,7 @@ const ContactForm = () => {
 
 <section className="contact-container">
 
+<Fade left>
 <div className="contact-cards-container">
     
     <div class="get_form_inner2">
@@ -49,7 +52,7 @@ const ContactForm = () => {
     </div>
 
 </div>
-
+</Fade>
 
 
           <div class="get_form_inner">
