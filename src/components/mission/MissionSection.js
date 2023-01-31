@@ -14,8 +14,8 @@ const MissionSection = () => {
     return (
         <>
         <div className='mission-section container'>
-        <h1>What We Can Provide</h1>
-        <p>We strive to make overcoming addiction achievable by focusing on your sobriety. We use proven medical practices and a comprehensive approach to healing through better guidance, greater compassion, and a stronger community.</p>
+        <h1>OUR MISSION</h1>
+        <p>We seek to provide the highest quality care for any addiction situation to create long-term sobriety in a safe and effective environment built on love, acceptance, and tolerance. We work every day to create addict programming that gives you the time and tools needed to live a sober life today, and then vigorously push you to fulfill your dreams tomorrow. </p>
             <div>
                 <div className="content">
                             <div className='flex-right'>
