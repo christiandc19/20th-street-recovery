@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.2b7414e0.css",
-    "main.js": "/20th-street-recovery/static/js/main.c347e868.js",
+    "main.css": "/20th-street-recovery/static/css/main.1ef971e9.css",
+    "main.js": "/20th-street-recovery/static/js/main.7567ae1a.js",
     "static/media/slider2.jpg": "/20th-street-recovery/static/media/slider2.998d1b0ba1a4449d2aa8.jpg",
     "static/media/mh-submenu-bg.jpg": "/20th-street-recovery/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
     "static/media/addiction-submenu-bg.jpg": "/20th-street-recovery/static/media/addiction-submenu-bg.5d1614d4cb6f11156dd1.jpg",
@@ -27,15 +27,10 @@
     "static/media/therapy.jpg": "/20th-street-recovery/static/media/therapy.dad0142aa6ca32c0ca9b.jpg",
     "static/media/nav-logo.png": "/20th-street-recovery/static/media/nav-logo.6f09761fac47587149c0.png",
     "static/media/clinic.jpg": "/20th-street-recovery/static/media/clinic.df2089786a9615989f92.jpg",
-    "static/media/IopSection1.jpg": "/20th-street-recovery/static/media/IopSection1.2c6d9291efd554cf9cd8.jpg",
-    "static/media/OpSection1.jpg": "/20th-street-recovery/static/media/OpSection1.dda466575667829e7928.jpg",
     "static/media/footer-bg.jpg": "/20th-street-recovery/static/media/footer-bg.09970ea08ea45ba517e3.jpg",
-    "static/media/PhpSection2.jpg": "/20th-street-recovery/static/media/PhpSection2.593e6d366a8691ac8926.jpg",
     "static/media/icon1.png": "/20th-street-recovery/static/media/icon1.3c3c28dde4710e22b21a.png",
     "static/media/icon2.png": "/20th-street-recovery/static/media/icon2.a5c33226b89a8a81e856.png",
     "static/media/icon3.png": "/20th-street-recovery/static/media/icon3.40ddbe883c7e575c3e5c.png",
-    "static/media/PhpSection1.jpg": "/20th-street-recovery/static/media/PhpSection1.44bd2b3c5fc5fdd47a70.jpg",
-    "static/media/OpSection2.jpg": "/20th-street-recovery/static/media/OpSection2.ff48affb66e99314e98a.jpg",
     "static/media/united-healthcare.png": "/20th-street-recovery/static/media/united-healthcare.78400c2f51fba67d0aff.png",
     "static/media/horizon.png": "/20th-street-recovery/static/media/horizon.93f9071008042e378717.png",
     "static/media/umr.png": "/20th-street-recovery/static/media/umr.0e284d15516d535bf42b.png",
@@ -43,11 +38,11 @@
     "static/media/bluecross.png": "/20th-street-recovery/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.2b7414e0.css.map": "/20th-street-recovery/static/css/main.2b7414e0.css.map",
-    "main.c347e868.js.map": "/20th-street-recovery/static/js/main.c347e868.js.map"
+    "main.1ef971e9.css.map": "/20th-street-recovery/static/css/main.1ef971e9.css.map",
+    "main.7567ae1a.js.map": "/20th-street-recovery/static/js/main.7567ae1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b7414e0.css",
-    "static/js/main.c347e868.js"
+    "static/css/main.1ef971e9.css",
+    "static/js/main.7567ae1a.js"
   ]
 }
