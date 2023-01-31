@@ -1,15 +1,17 @@
 import React from 'react'
-import InsuranceSection from '../insurance/InsuranceSection';
-import WhatWeDo from '../whatWeDo/WhatWeDo';
+// import InsuranceSection from '../insurance/InsuranceSection';
+import Whoweare from '../Whoweare/Whoweare';
 import ContactForm from '../contact/ContactForm';
+// import Whatwedo from '../Whatwedo/Whatwedo';
 
 
 
 const home = () => {
   return (
     <>
-    <WhatWeDo />
-    <InsuranceSection />
+    <Whoweare />
+    {/* <Whatwedo /> */}
+    {/* <InsuranceSection /> */}
     <ContactForm />
     </>
   )

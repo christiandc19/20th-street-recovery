@@ -29,7 +29,7 @@ ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''} >
     <Routes>
       <Route exact path='/' element={<App />} />
-      <Route exact path='/substance-abuse' element={<SA />} />
+      <Route exact path='/alcohol' element={<SA />} />
       <Route exact path='/substance-abuse-php' element={<SAPhp />} />
       <Route exact path='/substance-abuse-iop' element={<SAIop />} />
       <Route exact path='/substance-abuse-op' element={<SAOp />} />

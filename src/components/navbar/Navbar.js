@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-import logo from '../../assets/nav-logo.png'
+// import logo from '../../assets/nav-logo.png'
 import {FiChevronDown } from "react-icons/fi";
 
 import './NavbarStyles.css'
@@ -82,7 +82,8 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="100px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                        <h1>20TH STREET RECOVERY</h1>
+                    {/* <img src={logo} width="100px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/> */}
                     </Link>
                 </div>
 
@@ -91,7 +92,7 @@ const Navbar = () => {
                     
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Addiction <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/substance-abuse-php`}> Alcohol</NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-iop`}> Cocaine </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-op`}> Fentanyl </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Heroin</NavLink> </li>
@@ -110,17 +111,16 @@ const Navbar = () => {
 
                     <li onClick={toggleSubmenu2} className="menu-item sub__menus__arrows" > <Link to="#"> Mental Health <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li className='submenu-header2'> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/substance-abuse`}> SUBSTANCE ABUSE </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/substance-abuse-php`}> Partial Hospitalization Program</NavLink> </li>
-                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-iop`}> Intensive Outpatient Program </NavLink> </li>
-                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-op`}> Outpatient Program </NavLink> </li>
-                            <br/>
-                            <li className='submenu-header'> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health`}> MENTAL HEALTH </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health-php`}> Partial Hospitalization Program</NavLink> </li>
-                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-iop`}> Intensive Outpatient Program </NavLink> </li>
-                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> Outpatient Program </NavLink> </li>
-                            <br/>
-                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/Jobs`}> Jobs Program </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/substance-abuse`}> Acute Stress Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/substance-abuse-php`}> ADHD</NavLink> </li>
+                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-iop`}> Anger Disorder </NavLink> </li>
+                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-op`}> Anxiety Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health`}> Bipolar Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health-php`}> Depression </NavLink> </li>
+                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-iop`}> Panic Disorder </NavLink> </li>
+                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> PTSD </NavLink> </li>
+                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> Schizoaffective Disorder </NavLink> </li>
+                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> Schizophrenia </NavLink> </li>
                         </ul>
                     </li>
 
