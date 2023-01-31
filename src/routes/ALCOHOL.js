@@ -2,19 +2,19 @@ import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import SA from '../components/SA/SA'
-import SASection from '../components/SA/SASection'
+import ALCOHOL from '../components/Alcohol/Alcohol'
+import SASection from '../components/Alcohol/SASection'
 
 
-const SAbuse = () => {
+const Alcohol = () => {
   return (
     <>
     <Navbar /> 
-    <SA />
+    <ALCOHOL />
     <SASection />
     <Footer />
      </>
   )
 }
 
-export default SAbuse
+export default Alcohol

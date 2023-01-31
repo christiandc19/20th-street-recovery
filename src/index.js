@@ -13,7 +13,7 @@ import ContactPage from './routes/ContactPage'
 import SAPhp from './routes/SA-PHP';
 import SAIop from './routes/SA-IOP';
 import SAOp from './routes/SA-OP';
-import SA from './routes/SA';
+import ALCOHOL from './routes/ALCOHOL';
 
 import MH from './routes/MH';
 import MHPhp from './routes/MH-PHP';
@@ -29,7 +29,7 @@ ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''} >
     <Routes>
       <Route exact path='/' element={<App />} />
-      <Route exact path='/alcohol' element={<SA />} />
+      <Route exact path='/alcohol' element={<ALCOHOL />} />
       <Route exact path='/substance-abuse-php' element={<SAPhp />} />
       <Route exact path='/substance-abuse-iop' element={<SAIop />} />
       <Route exact path='/substance-abuse-op' element={<SAOp />} />

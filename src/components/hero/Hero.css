@@ -18,11 +18,11 @@
     width: 100vw;
     background-image: url('../../assets/slider1.jpg');
     background-size: cover;
-    animation: myAnimation alternate infinite 14s;
-    -webkit-animation: myAnimation alternate infinite 14s;
-    -moz-animation: myAnimation alternate infinite 14s;
-    -ms-animation: myAnimation alternate infinite 14s;
-    -o-animation: myAnimation alternate infinite 14s;
+    animation: myAnimation  infinite 14s;
+    -webkit-animation: myAnimation  infinite 14s;
+    -moz-animation: myAnimation  infinite 14s;
+    -ms-animation: myAnimation  infinite 14s;
+    -o-animation: myAnimation  infinite 14s;
     z-index: -1;
   }
 

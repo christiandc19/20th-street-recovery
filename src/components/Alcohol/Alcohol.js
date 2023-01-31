@@ -1,12 +1,12 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 
-import './SA.css'
+import './Alcohol.css'
 
 import Wave from '../../assets/waves.svg'
 
 
-const SA = () => {
+const Alcohol = () => {
     return (
         <div className='sa submenu'>
             <div className='hero-divider'>
@@ -14,12 +14,12 @@ const SA = () => {
             </div>
                 <div className="sa-content">
                     <Fade top>
-                    <h2>- OUR SERVICES</h2>
-                    <h1>SUBSTANCE ABUSE PROGRAMS</h1>
+                    <h2>- ADDICTION</h2>
+                    <h1>ALCOHOL</h1>
                     </Fade>
             </div>
         </div>
     )
 }
 
-export default SA
+export default Alcohol
