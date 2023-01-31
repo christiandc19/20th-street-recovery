@@ -49,8 +49,8 @@ const WhatWeDo = () => {
     <div className='wrap'>
 
         <Fade left>
-            <div className="box-right">
-                <img src={WhatWeDoImg2} width="550px" height="470px" alt="Conselling Session with a patient" loading="lazy" />
+            <div className="box-right box-right-img">
+                <img src={WhatWeDoImg2} width="550px" height="570px" alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
 
