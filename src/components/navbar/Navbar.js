@@ -123,6 +123,26 @@ const Navbar = () => {
 
                     <li><Link to='/treatment'>Treatment</Link> </li>
                     <li><Link to='/mission'>Our Mission</Link> </li>
+
+
+
+
+
+
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> about us <FiChevronDown /> </Link>
+                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/`}> Our Team</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Testimonials </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> FAQ </NavLink> </li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+
                     <li><Link to='/jobs'>Jobs Program</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
