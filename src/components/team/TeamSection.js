@@ -20,9 +20,9 @@ const TeamSection = () => {
         <p>We seek to provide the highest quality care for any addiction situation to create long-term sobriety in a safe and effective environment built on love, acceptance, and tolerance. We work every day to create addict programming that gives you the time and tools needed to live a sober life today, and then vigorously push you to fulfill your dreams tomorrow. </p>
             <div>
                 <div className="content">
-                            <div className='flex-right'>
 
-                            <Fade top>
+                    <div className='flex-right'>
+                    <Fade top>
                     <div className='thumbnail'>
                         <img src={ Team1 } width="300" height="250" alt="Therapy Session" loading="lazy"/>
                         <div>                   
