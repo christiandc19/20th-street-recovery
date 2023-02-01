@@ -14,6 +14,7 @@ import COCAINE from './routes/COCAINE';
 import ALCOHOL from './routes/ALCOHOL';
 import FENTANYL from './routes/FENTANYL';
 import HEROIN from './routes/HEROIN';
+import KRATOM from './routes/KRATOM';
 
 
 import AcuteStressDisorder from './routes/AcuteStressDisorder';
@@ -30,6 +31,8 @@ ReactDOM.render(
       <Route exact path='/cocaine' element={<COCAINE />} />
       <Route exact path='/fentanyl' element={<FENTANYL />} />
       <Route exact path='/heroin' element={<HEROIN />} />
+      <Route exact path='/kratom' element={<KRATOM />} />
+
 
 
 
