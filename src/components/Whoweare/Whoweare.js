@@ -50,14 +50,13 @@ const WhatWeDo = () => {
 
         <Fade left>
             <div className="box-right box-right-img">
-                <img src={WhatWeDoImg2} width="550px" height="570px" alt="Conselling Session with a patient" loading="lazy" />
+                <img src={WhatWeDoImg2} width="550px" height="550px" alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
 
         <Fade right>
             <div className="box left">
-                <h1 className='header'>WHAT WE DO</h1>
-                <br/>
+                {/* <h1 className='header'>WHAT WE DO</h1> */}
                 <p>Once a client is assessed, the drug detox process will occur under stringent medical supervision at our treatment facility. Medical supervision and guidance help clients feel safe and comfortable while the body rids itself of drugs and alcohol and provides physical and mental support throughout the withdrawal process. We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.  </p>
                 <br /> <br />
 

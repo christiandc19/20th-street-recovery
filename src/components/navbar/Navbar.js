@@ -94,9 +94,9 @@ const Navbar = () => {
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine </NavLink> </li>
-                            {/* <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-op`}> Fentanyl </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Heroin</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Kratom </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/fentanyl`}> Fentanyl </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/heroin`}> Heroin</NavLink> </li>
+                            {/*<li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Kratom </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> MDMA </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Meth </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Opiate </NavLink> </li>

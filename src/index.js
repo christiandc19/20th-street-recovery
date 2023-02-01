@@ -12,6 +12,9 @@ import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 import COCAINE from './routes/COCAINE';
 import ALCOHOL from './routes/ALCOHOL';
+import FENTANYL from './routes/FENTANYL';
+import HEROIN from './routes/HEROIN';
+
 
 import AcuteStressDisorder from './routes/AcuteStressDisorder';
 import Jobs from './routes/JOBS';
@@ -25,6 +28,9 @@ ReactDOM.render(
       <Route exact path='/' element={<App />} />
       <Route exact path='/alcohol' element={<ALCOHOL />} />
       <Route exact path='/cocaine' element={<COCAINE />} />
+      <Route exact path='/fentanyl' element={<FENTANYL />} />
+      <Route exact path='/heroin' element={<HEROIN />} />
+
 
 
 

@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-.footer .top .icon {
+.footer .top .footer-icon {
     font-size: 3rem;
     margin-right: 1rem;
     color: var(--primary-color);

@@ -19,7 +19,7 @@ const Footer = () => {
                     {/* <img src={logo} width="150px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/> */}
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <BsFillArrowUpCircleFill className='icon' />
+                        <BsFillArrowUpCircleFill className='footer-icon' />
                     </LinkRoll>
 
                 </div>
