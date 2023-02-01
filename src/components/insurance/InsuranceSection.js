@@ -12,7 +12,7 @@ import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 
-import Team from '../../assets/team.jpg'
+import Group from '../../assets/group.jpg'
 
 
 const InsuranceSection = () => {
@@ -86,9 +86,9 @@ const InsuranceSection = () => {
             </div>
 
 
-            <div className='team'>
+            <div className='group'>
             <Fade bottom>
-                <img src={Team} width="500px" height="320px" alt="Company Team" loading="lazy" />
+                <img src={Group} width="500px" height="320px" alt="Company Team" loading="lazy" />
             </Fade>
             </div>
 

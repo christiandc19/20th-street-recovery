@@ -119,7 +119,7 @@
 }
 
 
-.copyright p{
+.copyright p {
     color: white;
 }
 
@@ -136,9 +136,10 @@
         grid-column: 1 / span 2;
     }
 
-    /* .logo-footer img{
-        width: 50%;
-    } */
+    .footer h1, .footer h2, .footer h3 {
+        text-align: left;
+    }
+    
 }
 
 
