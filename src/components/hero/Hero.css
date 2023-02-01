@@ -3,7 +3,7 @@
 
 .coverPageSlide {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +14,7 @@
 
 .coverPageSlide::before {
     content: '';
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
     background-image: url('../../assets/slider1.jpg');
     background-size: cover;

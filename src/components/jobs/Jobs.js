@@ -13,7 +13,7 @@ const Jobs = () => {
         <div className='jobs submenu'>
                 <div className="jobs-content">
                     <Fade top>
-                    <h2>- OUR SERVICES</h2>
+                    <h2>- JOBS PROGRAM</h2>
                     <h1>EMPLOYMENT ASSISTANCE</h1>
                     </Fade>
                 </div>

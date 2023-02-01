@@ -20,11 +20,20 @@ import KRATOM from './routes/KRATOM';
 import MDMA from './routes/MDMA';
 import METH from './routes/METH';
 import OPIATE from './routes/OPIATE';
+import OPIOID from './routes/OPIOID';
+import OXYCODONE from './routes/OXYCODONE';
+import PRESCRIPTIONS from './routes/PRESCRIPTIONS';
+import XANAX from './routes/XANAX';
+
+
+
 
 
 
 import AcuteStressDisorder from './routes/AcuteStressDisorder';
 import ADHD from './routes/ADHD';
+import AngerDisorder from './routes/AngerDisorder';
+
 
 import Jobs from './routes/JOBS';
 
@@ -43,6 +52,11 @@ ReactDOM.render(
       <Route exact path='/mdma' element={<MDMA />} />
       <Route exact path='/meth' element={<METH />} />
       <Route exact path='/opiate' element={<OPIATE />} />
+      <Route exact path='/opioid' element={<OPIOID />} />
+      <Route exact path='/oxycodone' element={<OXYCODONE />} />
+      <Route exact path='/prescriptions' element={<PRESCRIPTIONS />} />
+      <Route exact path='/xanax' element={<XANAX />} />
+
 
 
 
@@ -50,6 +64,8 @@ ReactDOM.render(
 
       <Route exact path='/acute-stress-disorder' element={<AcuteStressDisorder />} />
       <Route exact path='/adhd' element={<ADHD />} />
+      <Route exact path='/anger-disorder' element={<AngerDisorder />} />
+
 
 
       <Route exact path='/jobs' element={<Jobs />} />

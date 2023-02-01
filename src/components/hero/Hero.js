@@ -18,7 +18,6 @@ const Hero = () => {
 
         </div>
 
-
             <div className="hero-container">
                 <div className="content">
                     <Fade left>
@@ -33,15 +32,11 @@ const Hero = () => {
                         <br />
                         <div className='hero-btn'>
                         <Link to="/treatment">
-                        <button>Learn More</button>
+                        <button>Get an Appointment</button>
                     </Link>
                     </div>
-
-
                 </div>
             </div>
-
-
         </div>
 </>
 

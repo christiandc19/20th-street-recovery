@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.xanax-section-header {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.xanax-section-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.xanax-section-header p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+
+
