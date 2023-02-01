@@ -31,7 +31,7 @@ const Hero = () => {
                     </Fade>
                         <br />
                         <div className='hero-btn'>
-                        <Link to="/treatment">
+                        <Link to="/contact">
                         <button>Get an Appointment</button>
                     </Link>
                     </div>
