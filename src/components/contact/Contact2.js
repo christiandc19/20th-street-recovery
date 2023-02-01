@@ -33,8 +33,6 @@ const ContactForm = () => {
         <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
     </div>
 
-
-
 <div class="contact2-container">
     <div class="contact-form-content">
 

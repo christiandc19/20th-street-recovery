@@ -25,7 +25,10 @@ const AngerDisorderSection = () => {
                 The behavior pattern can be not only detrimental to your life and goals but also to the safety of those around you. Relationships can be strained and school or work performance is affected as well.
                 </p>
 </div>
-
+<div className="contact2-header contact2-container">
+            <h1>DO YOU NEED URGENT HELP?</h1>
+            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+        </div>
 <ContactForm />
 
     </>

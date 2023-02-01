@@ -15,7 +15,7 @@ const Team = () => {
             </div>
                 <div className="team-content">
                     <Fade left>
-                    <h1>MEET OUR TEAM</h1>
+                    <h1>OUR TEAM</h1>
                     </Fade>
                 </div>
             </div>

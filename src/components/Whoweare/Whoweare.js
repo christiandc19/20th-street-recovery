@@ -69,7 +69,7 @@ const Whoweare = () => {
 
                     <div className='icons'>
                     <img src={Icon2} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
-                    <p><span>PROVEM METHODS</span> <br/> Porttitor ullamcorper hendrerit curabitur fusce potenti vehicula laoreet pede praesent.</p>
+                    <p><span>PROVEN METHODS</span> <br/> Porttitor ullamcorper hendrerit curabitur fusce potenti vehicula laoreet pede praesent.</p>
                     </div>
 
                     <div className='icons'>

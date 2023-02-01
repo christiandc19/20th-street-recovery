@@ -34,6 +34,7 @@ import AcuteStressDisorder from './routes/AcuteStressDisorder';
 import ADHD from './routes/ADHD';
 import AngerDisorder from './routes/AngerDisorder';
 import Anxiety from './routes/Anxiety';
+import BipolarDisorder from './routes/BipolarDisorder';
 
 
 
@@ -66,7 +67,9 @@ ReactDOM.render(
       <Route exact path='/acute-stress-disorder' element={<AcuteStressDisorder />} />
       <Route exact path='/adhd' element={<ADHD />} />
       <Route exact path='/anger-disorder' element={<AngerDisorder />} />
-      <Route exact path='/Anxiety' element={<Anxiety />} />
+      <Route exact path='/anxiety' element={<Anxiety />} />
+      <Route exact path='/bipolar-disorder' element={<BipolarDisorder />} />
+
 
 
 
