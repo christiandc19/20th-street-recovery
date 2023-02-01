@@ -14,7 +14,7 @@ const Team = () => {
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
                 <div className="team-content">
-                    <Fade top>
+                    <Fade left>
                     <h1>MEET OUR TEAM</h1>
                     </Fade>
                 </div>

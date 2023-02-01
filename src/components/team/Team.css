@@ -14,7 +14,7 @@
   .team:before {
     content: '';
     position: absolute;
-    background: url('../../assets/submenu-bg-jobs.jpg') no-repeat center center/cover;
+    background: url('../../assets/submenu-bg-team.jpg') no-repeat center center/cover;
     height: 80vh;
     width: 100%;
     z-index: -1;
