@@ -33,6 +33,8 @@ import XANAX from './routes/XANAX';
 import AcuteStressDisorder from './routes/AcuteStressDisorder';
 import ADHD from './routes/ADHD';
 import AngerDisorder from './routes/AngerDisorder';
+import Anxiety from './routes/Anxiety';
+
 
 
 import Jobs from './routes/JOBS';
@@ -65,6 +67,8 @@ ReactDOM.render(
       <Route exact path='/acute-stress-disorder' element={<AcuteStressDisorder />} />
       <Route exact path='/adhd' element={<ADHD />} />
       <Route exact path='/anger-disorder' element={<AngerDisorder />} />
+      <Route exact path='/Anxiety' element={<Anxiety />} />
+
 
 
 

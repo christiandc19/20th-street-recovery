@@ -108,8 +108,8 @@ const Navbar = () => {
                             <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/anger-disorder`}> Anger Disorder </NavLink> </li>
-                            {/*<li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-op`}> Anxiety Disorder </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health`}> Bipolar Disorder </NavLink> </li>
+                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/anxiety`}> Anxiety Disorder </NavLink> </li>
+                            {/* <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health`}> Bipolar Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health-php`}> Depression </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-iop`}> Panic Disorder </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> PTSD </NavLink> </li>
