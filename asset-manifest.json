@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.17e4372a.css",
-    "main.js": "/20th-street-recovery/static/js/main.6386d45d.js",
+    "main.css": "/20th-street-recovery/static/css/main.008a1c8f.css",
+    "main.js": "/20th-street-recovery/static/js/main.a607e6f5.js",
     "static/media/slider2.jpg": "/20th-street-recovery/static/media/slider2.998d1b0ba1a4449d2aa8.jpg",
     "static/media/mh-submenu-bg.jpg": "/20th-street-recovery/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
     "static/media/footer-bg.jpg": "/20th-street-recovery/static/media/footer-bg.7e2cd81203200aca84ce.jpg",
@@ -25,7 +25,7 @@
     "static/media/submenu-bg-jobs.jpg": "/20th-street-recovery/static/media/submenu-bg-jobs.a1fd8d967e1bacc96f64.jpg",
     "static/media/team4-min.jpg": "/20th-street-recovery/static/media/team4-min.51ae7ebc36bfd768e61c.jpg",
     "static/media/team3-min.jpg": "/20th-street-recovery/static/media/team3-min.877c3db3df0c897c1348.jpg",
-    "static/media/team.jpg": "/20th-street-recovery/static/media/team.24202f3813533aeb44a6.jpg",
+    "static/media/group.jpg": "/20th-street-recovery/static/media/group.24202f3813533aeb44a6.jpg",
     "static/media/menu-bg-contact.jpg": "/20th-street-recovery/static/media/menu-bg-contact.1716c90863e67762bd98.jpg",
     "static/media/staff.jpg": "/20th-street-recovery/static/media/staff.05fa3028431c1d3d0788.jpg",
     "static/media/team2-min.jpg": "/20th-street-recovery/static/media/team2-min.e706e26d4aabb9a13ac3.jpg",
@@ -45,11 +45,11 @@
     "static/media/bluecross.png": "/20th-street-recovery/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.17e4372a.css.map": "/20th-street-recovery/static/css/main.17e4372a.css.map",
-    "main.6386d45d.js.map": "/20th-street-recovery/static/js/main.6386d45d.js.map"
+    "main.008a1c8f.css.map": "/20th-street-recovery/static/css/main.008a1c8f.css.map",
+    "main.a607e6f5.js.map": "/20th-street-recovery/static/js/main.a607e6f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.17e4372a.css",
-    "static/js/main.6386d45d.js"
+    "static/css/main.008a1c8f.css",
+    "static/js/main.a607e6f5.js"
   ]
 }
