@@ -38,17 +38,17 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3234521224"> +1 (323) 452-1224</a></p>
+            <p><AiOutlinePhone /><a href="tel:3235792196"> +1 (323) 579-2196</a></p>
     </div>
 
     <div class="get_form_inner2">
             <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@domainName.com  </p><br />
+            <p><AiOutlineMail /> info@20thStreetDetox.com  </p><br />
     </div>
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 68487 E Palm Canyon Dr, STE 44, Cathedral City CA 92234 </p>
+            <p><BsFillPinMapFill /> 1045 20th St, Los Angeles CA 90011</p>
     </div>
 
 </div>
