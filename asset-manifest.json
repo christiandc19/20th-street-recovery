@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.5f66d82a.css",
-    "main.js": "/20th-street-recovery/static/js/main.f292ab77.js",
+    "main.css": "/20th-street-recovery/static/css/main.17e4372a.css",
+    "main.js": "/20th-street-recovery/static/js/main.6386d45d.js",
     "static/media/slider2.jpg": "/20th-street-recovery/static/media/slider2.998d1b0ba1a4449d2aa8.jpg",
     "static/media/mh-submenu-bg.jpg": "/20th-street-recovery/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
     "static/media/footer-bg.jpg": "/20th-street-recovery/static/media/footer-bg.7e2cd81203200aca84ce.jpg",
@@ -19,6 +19,7 @@
     "static/media/activity.jpg": "/20th-street-recovery/static/media/activity.18cf9f92ce0257180036.jpg",
     "static/media/whatwedo.jpg": "/20th-street-recovery/static/media/whatwedo.650d19ce3a606168a8be.jpg",
     "static/media/contact-form-bg.jpg": "/20th-street-recovery/static/media/contact-form-bg.f8f51c24ccd4688fa090.jpg",
+    "static/media/submenu-bg-team.jpg": "/20th-street-recovery/static/media/submenu-bg-team.60bc3ede9e9bb99c5f4b.jpg",
     "static/media/menu-bg-insurance.jpg": "/20th-street-recovery/static/media/menu-bg-insurance.feda551b4ff3f77df9da.jpg",
     "static/media/addiction-submenu-bg.jpg": "/20th-street-recovery/static/media/addiction-submenu-bg.71513380889c2e858413.jpg",
     "static/media/submenu-bg-jobs.jpg": "/20th-street-recovery/static/media/submenu-bg-jobs.a1fd8d967e1bacc96f64.jpg",
@@ -44,11 +45,11 @@
     "static/media/bluecross.png": "/20th-street-recovery/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.5f66d82a.css.map": "/20th-street-recovery/static/css/main.5f66d82a.css.map",
-    "main.f292ab77.js.map": "/20th-street-recovery/static/js/main.f292ab77.js.map"
+    "main.17e4372a.css.map": "/20th-street-recovery/static/css/main.17e4372a.css.map",
+    "main.6386d45d.js.map": "/20th-street-recovery/static/js/main.6386d45d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f66d82a.css",
-    "static/js/main.f292ab77.js"
+    "static/css/main.17e4372a.css",
+    "static/js/main.6386d45d.js"
   ]
 }
