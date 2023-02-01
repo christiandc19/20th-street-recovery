@@ -14,6 +14,7 @@ const Oxycodone = () => {
             </div>
                 <div className="oxycodone-content">
                     <Fade top>
+                    <h3>- ADDICTION</h3>
                     <h1>OXYCODONE</h1>
                     </Fade>
             </div>

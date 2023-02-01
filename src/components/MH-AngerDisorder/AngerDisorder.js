@@ -14,7 +14,8 @@ const AngerDisorder = () => {
             </div>
                 <div className="AngerDisorder-content">
                     <Fade top>
-                    <h1>ANGER DISORDER</h1>
+                    <h3>- MENTAL HEALTH</h3>
+                    <h1>INTERMITTENT EXPLOSIVE DISORDER</h1>
                     </Fade>
             </div>
         </div>

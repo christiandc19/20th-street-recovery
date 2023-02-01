@@ -37,6 +37,12 @@
     color: white;
 }
 
+.anxiety h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
@@ -44,4 +50,9 @@
 .anxiety h1 {
     font-size: 2rem;
 }
+
+.anxiety h3 {
+    font-size: 1rem;
+}
+
 }

@@ -14,6 +14,7 @@ const Meth = () => {
             </div>
                 <div className="meth-content">
                     <Fade top>
+                    <h3>- ADDICTION</h3>
                     <h1>METHAMPHETAMINE</h1>
                     </Fade>
             </div>

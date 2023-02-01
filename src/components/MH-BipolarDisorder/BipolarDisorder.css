@@ -4,14 +4,14 @@
 .BipolarDisorder {
     width: 100%;
     height: 80vh;
-    background-color: rgba(0, 0, 0, 0.562);
+    background: rgba(42, 14, 73, 0.486);
     position: relative;
   }
   
   .BipolarDisorder:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/mental-health-submenu-bg.jpg') no-repeat center center/cover;
     height: 80vh;
     width: 100%;
     z-index: -1;
@@ -37,6 +37,12 @@
     color: white;
 }
 
+.BipolarDisorder h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
@@ -44,4 +50,9 @@
 .BipolarDisorder h1 {
     font-size: 2rem;
 }
+
+.BipolarDisorder h3 {
+    font-size: 1rem;
+}
+
 }

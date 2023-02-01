@@ -14,6 +14,7 @@ const Kratom = () => {
             </div>
                 <div className="kratom-content">
                     <Fade top>
+                    <h3>- ADDICTION</h3>
                     <h1>KRATOM</h1>
                     </Fade>
             </div>
