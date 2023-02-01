@@ -40,8 +40,13 @@
 .footer .top .footer-icon {
     font-size: 3rem;
     margin-right: 1rem;
-    color: var(--primary-color);
+    color: white;
     cursor: pointer;
+}
+
+.footer h1 {
+    font-size: 2rem;
+    color: white;
 }
 
 .footer h2 {

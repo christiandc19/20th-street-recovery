@@ -43,20 +43,20 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">68487 E Palm Canyon Dr, STE 44</div>
-          <div class="text-two">Cathedral City CA 92234</div>
+          <div class="text-one">1045 20th St,</div>
+          <div class="text-two">Los Angeles CA 90011</div>
         </div>
 
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3234521224"> +1 (323) 452-1224</a></div>
+          <div class="text-one"><a href="tel:3235792196"> +1 (323) 579-2196</a></div>
         </div>
 
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
-          <div class="text-one">info@domainName.com</div>
+          <div class="text-one"> info@20thStreetDetox.com</div>
         </div>
       </div>
 
