@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-// import logo from '../../assets/nav-logo.png'
+import logo from '../../assets/nav-logo.png'
 import {FiChevronDown } from "react-icons/fi";
 
 import './NavbarStyles.css'
@@ -82,8 +82,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                        <h1>20TH STREET RECOVERY</h1>
-                    {/* <img src={logo} width="100px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/> */}
+                    <img src={logo} width="100px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -99,8 +98,8 @@ const Navbar = () => {
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/kratom`}> Kratom </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mdma`}> MDMA </NavLink> </li>
                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/meth`}> Meth </NavLink> </li>
-                            {/*<li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Opiate </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Opioide </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opiate`}> Opiate </NavLink> </li>
+                            {/*<li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Opioide </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Oxydone </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Prescription </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Xanax </NavLink> </li> */}
@@ -108,12 +107,11 @@ const Navbar = () => {
                     </li>
 
 
-
                     <li onClick={toggleSubmenu2} className="menu-item sub__menus__arrows" > <Link to="#"> Mental Health <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
-                            {/* <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/substance-abuse-php`}> ADHD</NavLink> </li>
-                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-iop`}> Anger Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>
+                            {/*<li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-iop`}> Anger Disorder </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/substance-abuse-op`}> Anxiety Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health`}> Bipolar Disorder </NavLink> </li>
                             <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health-php`}> Depression </NavLink> </li>
@@ -122,13 +120,14 @@ const Navbar = () => {
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> Schizoaffective Disorder </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> Schizophrenia </NavLink> </li> */}
                         </ul>
+
                     </li>
 
 
 
                     <li><Link to='/treatment'>Treatment</Link> </li>
                     <li><Link to='/mission'>Our Mission</Link> </li>
-                    {/* <li><Link to='/about-us'>About Us</Link> </li> */}
+                    <li><Link to='/about-us'>About Us</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                 </ul>

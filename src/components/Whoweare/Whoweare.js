@@ -13,15 +13,16 @@ import Icon3 from '../../assets/icon3.png'
 
 
 
-const WhatWeDo = () => {
+const Whoweare = () => {
   return (
 <>
     <div className='wrap'>
         <Fade left>
             <div className="box left">
-                <h1 className='header'>WHO WE ARE</h1>
+                <h1 className='header'>WHO WE ARE</h1><br/>
+                <h1 className='header2'>At <span>Rodeo Recovery,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</h1>
                 <br/>
-                <p>At Rodeo Recovery, we provide safe and comfortable medical detox services for those struggling with addiction to alcohol and drugs, including Fentanyl, cocaine, heroin, opioids, benzos, alcohol, and more. To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder. An evaluation includes:</p>
+                <p>To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder. An evaluation includes:</p>
                 <br />
                 <ul>
                     <li>
@@ -61,17 +62,17 @@ const WhatWeDo = () => {
                 <br /> <br />
 
                 <div className='Whoweare-icon'>
-                    <div className='icon'>
+                    <div className='icons'>
                     <img src={Icon1} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
                     <p><span>DEDICATED STAFF</span> <br/> Porttitor ullamcorper hendrerit curabitur fusce potenti vehicula laoreet pede praesent.</p>
                     </div>
 
-                    <div className='icon'>
+                    <div className='icons'>
                     <img src={Icon2} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
                     <p><span>PROVEM METHODS</span> <br/> Porttitor ullamcorper hendrerit curabitur fusce potenti vehicula laoreet pede praesent.</p>
                     </div>
 
-                    <div className='icon'>
+                    <div className='icons'>
                     <img src={Icon3} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
                     <p><span>24/7 SUPPORT</span> <br/> Porttitor ullamcorper hendrerit curabitur fusce potenti vehicula laoreet pede praesent.</p>
                     </div>
@@ -88,4 +89,4 @@ const WhatWeDo = () => {
   )
 }
 
-export default WhatWeDo
+export default Whoweare

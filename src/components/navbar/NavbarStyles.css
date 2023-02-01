@@ -6,7 +6,7 @@
     height: 90px;
     position: absolute;
     z-index: 10;
-    background: rgba(58, 56, 56, 0.404);
+    background: rgba(59, 30, 87, 0.404);
 }
 
 .navbar .navbar-container {
@@ -14,12 +14,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1rem;
 }
 
+.navbar-logo img {
+  padding-bottom: 20px;
+}
 .navbar .icon {
   font-size: 1.4rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .navbar .logo .icon {
@@ -110,7 +112,7 @@
         top: 0;
         left:-100%;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         background: #7F669D;
         transition: 0.5s ease-in;
     }
@@ -141,6 +143,10 @@
 
       .sub__menus {
         width: 250px;
+      }
+
+      .navbar .navbar-container {
+        justify-content: space-between;
       }
 
 }
