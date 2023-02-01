@@ -38,6 +38,8 @@ import Anxiety from './routes/Anxiety';
 
 
 import Jobs from './routes/JOBS';
+import Team from './routes/Team';
+
 
 
 
@@ -61,9 +63,6 @@ ReactDOM.render(
 
 
 
-
-
-
       <Route exact path='/acute-stress-disorder' element={<AcuteStressDisorder />} />
       <Route exact path='/adhd' element={<ADHD />} />
       <Route exact path='/anger-disorder' element={<AngerDisorder />} />
@@ -75,7 +74,15 @@ ReactDOM.render(
       <Route exact path='/jobs' element={<Jobs />} />
       <Route exact path='/treatment' element={<TreatmentPage />} />
       <Route exact path='/mission' element={<MissionPage />} />
+
+
       <Route exact path='/about-us' element={<AboutPage />} />
+      <Route exact path='/team' element={<Team />} />
+
+
+
+
+
       <Route exact path='/insurance' element={<InsurancePage />} />
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>
