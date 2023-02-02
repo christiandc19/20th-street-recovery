@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-// import logo from '../../assets/nav-logo.png'
+import logo from '../../assets/nav-logo.png'
 import {FiChevronDown } from "react-icons/fi";
 
 import './NavbarStyles.css'
@@ -40,32 +40,32 @@ const Navbar = () => {
 
 
 
-    const [isMenu2, setisMenu2] = useState(false);
+    // const [isMenu2, setisMenu2] = useState(false);
 
 
-    const toggleClass2 = () => {
-        setisMenu2(isMenu === false ? true : false);
-    };
+    // const toggleClass2 = () => {
+    //     setisMenu2(isMenu === false ? true : false);
+    // };
 
-    let boxClass2 = ["main-menu menu-right menuq1"];
-    if(isMenu2) {
-        boxClass2.push('menuq2');
-    }else{
-        boxClass2.push('');
-    }
+    // let boxClass2 = ["main-menu menu-right menuq1"];
+    // if(isMenu2) {
+    //     boxClass2.push('menuq2');
+    // }else{
+    //     boxClass2.push('');
+    // }
 
-    const [isMenuSubMenu2, setMenuSubMenu2] = useState(false);
+    // const [isMenuSubMenu2, setMenuSubMenu2] = useState(false);
       
-    const toggleSubmenu2 = () => {
-      setMenuSubMenu2(isMenuSubMenu === false ? true : false);
-    };
+    // const toggleSubmenu2 = () => {
+    //   setMenuSubMenu2(isMenuSubMenu === false ? true : false);
+    // };
     
-    let boxClassSubMenu2 = ["sub__menus"];
-    if(isMenuSubMenu2) {
-        boxClassSubMenu2.push('sub__menus__Active');
-    }else {
-        boxClassSubMenu2.push('');
-    }
+    // let boxClassSubMenu2 = ["sub__menus"];
+    // if(isMenuSubMenu2) {
+    //     boxClassSubMenu2.push('sub__menus__Active');
+    // }else {
+    //     boxClassSubMenu2.push('');
+    // }
 
 
 
@@ -77,8 +77,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <h3>20TH STREET RECOVERY</h3>
-                    {/* <img src={logo} width="100px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/> */}
+                    <img src={logo} width="160px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -103,13 +102,13 @@ const Navbar = () => {
                     </li>
 
 
-                    <li onClick={toggleSubmenu2} className="menu-item sub__menus__arrows" > <Link to="#"> Mental Health <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Mental Health <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>
-                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/anger-disorder`}> Anger Disorder </NavLink> </li>
-                            <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/anxiety`}> Anxiety Disorder </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/bipolar-disorder`}> Bipolar Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/anger-disorder`}> Anger Disorder </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/anxiety`}> Anxiety Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/bipolar-disorder`}> Bipolar Disorder </NavLink> </li>
                             {/* <li> <NavLink onClick={toggleClass2} activeClassName='is-active'  to={`/mental-health-php`}> Depression </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-iop`}> Panic Disorder </NavLink> </li>
                             <li><NavLink onClick={toggleClass2} activeClassName='is-active' to={`/mental-health-op`}> PTSD </NavLink> </li>

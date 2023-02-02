@@ -80,6 +80,8 @@ const ResidenceSection = () => {
                     </Fade>  
 
                     </div>
+
+
 <ContactForm />
 
     </>
