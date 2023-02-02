@@ -60,14 +60,16 @@
     justify-content: space-between;
     height: 100px;
     text-align: center;
-    margin: 1rem 0;
+    margin: 1rem;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0px 15px 40px -20px rgba(0,0,0,0.64);
+    width: auto;
 }
 
 .icons p {
     width: 500px;
+    margin-left: 1rem;
 }
 
 
@@ -83,6 +85,7 @@
 
     .wrap p {
         font-size: 14px;
+        margin: 1rem;
     }
 
     .left .Whoweare-icon{
@@ -93,15 +96,13 @@
         font-size: 2rem;
     }
 
-.left button {
+    .left button {
     margin: 1rem auto;
-}
+    }
 
-.box-right-img img {
+    .box-right-img img {
     display: none;
-}
-
-
+    }
 
 }
 
@@ -112,3 +113,22 @@
         margin: 10px;
     }
 } */
+
+@media screen and (max-width:500px) {
+    .icons {
+        width: 350px;
+        height: 120px;
+        margin: auto;
+    }
+
+    .box-right img {
+        width: 350px;
+        height: 250px;
+        margin: 10px;
+    }
+
+    .wrap {
+        margin: 1rem 0 0 0;
+      }
+
+}

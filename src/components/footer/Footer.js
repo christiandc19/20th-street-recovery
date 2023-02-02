@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import logo from '../../assets/nav-logo.png'
-// import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
+import { FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
 import './FooterStyles.css'
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -35,11 +35,14 @@ const Footer = () => {
                         <Link to='/about-us'><p>About Us</p></Link>
                         </LinkRoll>
 
-
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/team'><p>Our Team</p></Link>
+                        </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Programs</p></Link>
+                        <Link to='/'><p>Testimonials</p></Link>
                         </LinkRoll>
+
                     </div>
 
 
@@ -51,7 +54,7 @@ const Footer = () => {
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/treatment'><p>Treatment</p></Link>
+                        <Link to='/treatment'><p>Programs</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -64,7 +67,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="col">
+                    {/* <div className="col">
                         <h3>SUBSTANCE ABUSE</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-php'><p>Partial Hospitalization Program</p></Link>
@@ -73,10 +76,6 @@ const Footer = () => {
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-iop'><p>Intensive Outpatient Program</p></Link>
                         </LinkRoll>
-
-                        {/* <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/testimonials'><p>Testimonials</p></Link>
-                        </LinkRoll> */}
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-op'><p>Outpatient Program</p></Link>
@@ -97,12 +96,12 @@ const Footer = () => {
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mental-health-op'><p>Outpatient Program</p></Link>
                         </LinkRoll>
-                    </div>
+                    </div> */}
 
-                    {/* <form>
-                        <h3>Join Our Team</h3>
-                        <input type="email" placeholder='Enter your email' />
-                        <FiMail className='mail-icon' />
+                    <form>
+                        <h3>Follow us</h3>
+                        {/* <input type="email" placeholder='Enter your email' /> */}
+                        {/* <FiMail className='mail-icon' /> */}
                         <div className="social-group">
                             <FiInstagram className='social-icon' />
                             <FiFacebook className='social-icon' />
@@ -110,7 +109,7 @@ const Footer = () => {
                             <FiDribbble className='social-icon' />
                             <FiGithub className='social-icon' />
                         </div>
-                    </form> */}
+                    </form>
                 </div>
                 <p className='copyright'><p>&copy; 2023 20th Street Recovery. All rights reserved</p></p>
 
