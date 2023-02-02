@@ -16,9 +16,9 @@
   align-items: center;
 }
 
-/* .navbar-logo img {
-  padding-top: 20px;
-} */
+.navbar-logo img {
+  padding: 10px;
+}
 
 .navbar .icon {
   font-size: 1.4rem;
@@ -40,13 +40,13 @@
     height: 100%;
     align-items: center;
     display: flex;
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
 }
 
 .navbar li {
     font-size: 13px;
     width: max-content;
-    padding: .3rem 1rem;
+    padding: .5rem 1rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;

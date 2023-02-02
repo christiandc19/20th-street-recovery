@@ -58,7 +58,7 @@ input {
   }
 
   .get_form_inner_text h3 {
-    color: #333;
+    color: var(--primary-color);
     font-size: 26px;
     font-weight: 600;
   }
