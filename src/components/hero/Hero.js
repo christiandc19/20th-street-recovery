@@ -23,9 +23,9 @@ const Hero = () => {
                     <Fade left>
                         <h2 className='subtitle'>SUBSTANCE ABUSE ADDICTION AND MENTAL HEALTH TREATMENT FACILITY</h2>
                     </Fade>
-                    <Fade right>
-                        <h1>20TH STREET RECOVERY</h1>
-                    </Fade>
+                        <div className='fading'>
+                        <h1 className='fading'>20TH STREET RECOVERY</h1>
+                        </div>
                     <Fade buttom>
                         <p>Walk the road of recovery with us</p>
                     </Fade>
