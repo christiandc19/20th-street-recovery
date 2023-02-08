@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.783e525f.css",
-    "main.js": "/20th-street-recovery/static/js/main.7f7044b9.js",
+    "main.css": "/20th-street-recovery/static/css/main.24b6b480.css",
+    "main.js": "/20th-street-recovery/static/js/main.5db7cd8a.js",
     "static/media/nav-logo.png": "/20th-street-recovery/static/media/nav-logo.a73e71833578fdf63b51.png",
     "static/media/slider2.jpg": "/20th-street-recovery/static/media/slider2.998d1b0ba1a4449d2aa8.jpg",
     "static/media/home1.png": "/20th-street-recovery/static/media/home1.36fcbba2b792f74810e0.png",
@@ -55,11 +55,11 @@
     "static/media/bluecross.png": "/20th-street-recovery/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.783e525f.css.map": "/20th-street-recovery/static/css/main.783e525f.css.map",
-    "main.7f7044b9.js.map": "/20th-street-recovery/static/js/main.7f7044b9.js.map"
+    "main.24b6b480.css.map": "/20th-street-recovery/static/css/main.24b6b480.css.map",
+    "main.5db7cd8a.js.map": "/20th-street-recovery/static/js/main.5db7cd8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.783e525f.css",
-    "static/js/main.7f7044b9.js"
+    "static/css/main.24b6b480.css",
+    "static/js/main.5db7cd8a.js"
   ]
 }
