@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap ;
   justify-content: space-evenly;
-  margin: 5rem 0 0 0;
+  margin: 2rem 0 0 0;
 }
 
 .box {
@@ -15,31 +15,37 @@
 }
 
 .box-right {
-    width: 550px;
+    width: 500px;
+    padding: 1rem;
+
+}
+
+.box-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
 }
 
 .wrap .header {
     text-align: left;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .wrap .header2 {
-    text-align: left;
-    font-size: 25px;
+    text-align: justify;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
 
 .wrap .header2 span {
     text-align: left;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.box-right img {
-    border-radius: 15px;
-}
+
 
 .wrap p, .wrap ul li {
     font-size: 15px;
@@ -54,10 +60,6 @@
 .Whoweare-icon {
     width: 600px;
 }
-
-span:nth-child(1) {
-    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
 
 .icons {
     display: flex;
@@ -87,9 +89,22 @@ span:nth-child(1) {
         height: 50px;
     }
 
-    .wrap p {
+    .wrap p, .wrap .header2 {
         font-size: 14px;
         margin: 1rem;
+    }
+
+    .wrap .header2 {
+        font-size: 14px;
+        margin: 0 1rem;
+    }
+
+    .wrap .header {
+        margin: 0 1rem
+    }
+
+    .wrap .header2 span {
+        font-size: 22px;
     }
 
     .left .Whoweare-icon{
@@ -104,9 +119,7 @@ span:nth-child(1) {
     margin: 1rem auto;
     }
 
-    .box-right-img img {
-    display: none;
-    }
+
 
 }
 
@@ -123,12 +136,6 @@ span:nth-child(1) {
         width: 350px;
         height: 120px;
         margin: auto;
-    }
-
-    .box-right img {
-        width: 350px;
-        height: 250px;
-        margin: 10px;
     }
 
     .wrap {
