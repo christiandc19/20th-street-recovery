@@ -21,7 +21,7 @@ const Whoweare = () => {
 <>
     <div className='wrap'>
         <Fade left>
-            <div className="box left">
+            <div className="left">
                 <h1 className='header'>WHO WE ARE</h1><br/>
                 <h1 className='header2'>At <span>20TH STREET RECOVERY,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</h1>
                 <br/>
@@ -31,7 +31,7 @@ const Whoweare = () => {
         </Fade>
 
         <Fade right>
-            <div className="box-right">
+            <div className="right">
                 <img src={Whoweare1} alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
@@ -47,7 +47,7 @@ const Whoweare = () => {
     <div className='wrap'>
 
         <Fade right>
-            <div className="box left">
+            <div className="left">
                 <div className='Whoweare-icon'>
                     <div className='icons'>
                     <img src={Icon1} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
@@ -69,8 +69,8 @@ const Whoweare = () => {
         </Fade>
 
         <Fade left>
-            <div className="box-right box-right-img">
-                <img src={Whoweare2} width="550px" height="550px" alt="Conselling Session with a patient" loading="lazy" />
+            <div className="right">
+                <img src={Whoweare2}  alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
 
