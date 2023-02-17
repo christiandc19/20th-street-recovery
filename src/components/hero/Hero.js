@@ -8,36 +8,32 @@ import Wave from '../../assets/waves.svg'
 const Hero = () => {
     return (
 <>        
-        <div className='hero'>
+<div className='hero'>
 
-        <div class="coverPageSlide">
+<div className='hero-divider'>
+        <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
+    </div>
 
-        <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
+
+    <div className="hero-container">
+        <div className="content">
+                <h1 className="animate-charcter">20TH STREET RECOVERY</h1>
+            <Fade left>
+                <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
+            </Fade>
+                <br />
+                <div className='hero-btn'>
+                <Link to="/contact">
+                <button>GET AN APPOINTMENT</button>
+            </Link>
             </div>
-
+            <br />
+            <Fade bottom>
+                <p>Find your happiness and learn to put it first.</p>
+            </Fade>
         </div>
-
-            <div className="hero-container">
-                <div className="content">
-                    <Fade left>
-                        <h2 className='subtitle'>SUBSTANCE ABUSE ADDICTION AND MENTAL HEALTH TREATMENT FACILITY</h2>
-                    </Fade>
-                        <div className='fading'>
-                        <h1 className='fading'>20TH STREET RECOVERY</h1>
-                        </div>
-                    <Fade buttom>
-                        <p>Walk the road of recovery with us</p>
-                    </Fade>
-                        <br />
-                        <div className='hero-btn'>
-                        <Link to="/contact">
-                        <button>Get an Appointment</button>
-                    </Link>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
+</div>
 </>
 
     )

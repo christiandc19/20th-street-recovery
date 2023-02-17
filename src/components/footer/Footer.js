@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import logo from '../../assets/nav-logo.png'
-import { FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
+import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi'
 import './FooterStyles.css'
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} width="160px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="150px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='footer-icon' />
@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="col-container">
 
                     <div className="col">
-                        <h3>My Account</h3>
+                        <h3>Company</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mission'><p>Our Mission</p></Link>
@@ -67,36 +67,21 @@ const Footer = () => {
                     </div>
 
 
-                    {/* <div className="col">
-                        <h3>SUBSTANCE ABUSE</h3>
+                    <div className="col">
+                        <h3>SERVICES</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-php'><p>Partial Hospitalization Program</p></Link>
+                        <Link to='/mental-health'><p>Mental Health Program</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-iop'><p>Intensive Outpatient Program</p></Link>
+                        <Link to='/substance-abuse'><p>Substance Abuse Program</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-op'><p>Outpatient Program</p></Link>
+                        <Link to='/jobs'><p>Employment Assistance</p></Link>
                         </LinkRoll>
                     </div>
 
-
-                    <div className="col">
-                        <h3>MENTAL HEALTH</h3>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-php'><p>Partial Hospitalization Program</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-iop'><p>Intensive Outpatient Program</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-op'><p>Outpatient Program</p></Link>
-                        </LinkRoll>
-                    </div> */}
 
                     <form>
                         <h3>Follow us</h3>
@@ -106,12 +91,10 @@ const Footer = () => {
                             <FiInstagram className='social-icon' />
                             <FiFacebook className='social-icon' />
                             <FiLinkedin className='social-icon' />
-                            <FiDribbble className='social-icon' />
-                            <FiGithub className='social-icon' />
                         </div>
                     </form>
                 </div>
-                <p className='copyright'><p>&copy; 2023 20th Street Recovery. All rights reserved</p></p>
+                <p className='copyright'><p>&copy; 2023 20TH Street Recovery. All rights reserved</p></p>
 
 
             </div>

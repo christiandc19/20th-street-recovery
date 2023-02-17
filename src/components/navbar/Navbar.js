@@ -39,45 +39,13 @@ const Navbar = () => {
 
 
 
-
-    // const [isMenu2, setisMenu2] = useState(false);
-
-
-    // const toggleClass2 = () => {
-    //     setisMenu2(isMenu === false ? true : false);
-    // };
-
-    // let boxClass2 = ["main-menu menu-right menuq1"];
-    // if(isMenu2) {
-    //     boxClass2.push('menuq2');
-    // }else{
-    //     boxClass2.push('');
-    // }
-
-    // const [isMenuSubMenu2, setMenuSubMenu2] = useState(false);
-      
-    // const toggleSubmenu2 = () => {
-    //   setMenuSubMenu2(isMenuSubMenu === false ? true : false);
-    // };
-    
-    // let boxClassSubMenu2 = ["sub__menus"];
-    // if(isMenuSubMenu2) {
-    //     boxClassSubMenu2.push('sub__menus__Active');
-    // }else {
-    //     boxClassSubMenu2.push('');
-    // }
-
-
-
-
-
     return (
         <div name='top' className='navbar'>
             <div className="navbar-container">
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="160px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="120px" height="70px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
