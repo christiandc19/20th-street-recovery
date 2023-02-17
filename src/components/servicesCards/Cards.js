@@ -31,7 +31,7 @@ const Cards = () => {
     <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/mental-health">
-            <button>Learn More</button>
+            <button>LEARN MORE</button>
         </Link>
     </LinkRoll>
     </div>

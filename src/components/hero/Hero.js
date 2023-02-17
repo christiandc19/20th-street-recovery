@@ -22,7 +22,7 @@ const Hero = () => {
                 <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
             </Fade>
                 <br />
-                <div className='hero-btn'>
+                <div className='hero-button'>
                 <Link to="/contact">
                 <button>GET AN APPOINTMENT</button>
             </Link>

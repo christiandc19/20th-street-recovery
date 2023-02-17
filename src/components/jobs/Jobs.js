@@ -17,7 +17,6 @@ const Jobs = () => {
             </div>
                 <div className="jobs-content">
                     <Fade top>
-                    <h2>- JOBS PROGRAM</h2>
                     <h1>EMPLOYMENT ASSISTANCE</h1>
                     </Fade>
                 </div>

@@ -69,22 +69,24 @@ h2 {
 
 button {
   font-family: 'Roboto', sans-serif;
-  padding: 1rem 5rem;
+  padding: .5rem 2rem;
   margin: 1rem 0;
-  background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background-color: rgba(5, 71, 5, 0.699);
+  border: 1px solid rgba(5, 71, 5, 0.699);
   color: #f8f8f8;
   font-size: 1.2rem;
   font-weight: 500;
-  border-radius: 25px;
+  border-radius: 16px;
   cursor:pointer;
 
 }
 
-/* button:hover {
-  background-color: #4ad15c;
-  border: 1px solid #4ad15c;
-} */
+button:hover {
+  color: black;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.678);
+  border: 1px solid rgba(255, 255, 255, 0.678);
+}
 
 span {
   color: var(--primary-color);

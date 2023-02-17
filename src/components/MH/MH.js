@@ -14,7 +14,6 @@ const MH = () => {
             </div>
                 <div className="mh-content">
                     <Fade top>
-                    <h2>- OUR SERVICES</h2>
                     <h1>MENTAL HEALTH PROGRAMS</h1>
                     </Fade>
                     {/* <Fade bottom>
