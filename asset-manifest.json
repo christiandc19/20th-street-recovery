@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.0b69a30d.css",
-    "main.js": "/20th-street-recovery/static/js/main.d25c5530.js",
+    "main.css": "/20th-street-recovery/static/css/main.a7d33ea1.css",
+    "main.js": "/20th-street-recovery/static/js/main.06f0b7cd.js",
     "static/media/nav-logo.png": "/20th-street-recovery/static/media/nav-logo.a73e71833578fdf63b51.png",
-    "static/media/slider1.jpg": "/20th-street-recovery/static/media/slider1.23b4c84cd18309a24927.jpg",
     "static/media/home1.png": "/20th-street-recovery/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/home2.png": "/20th-street-recovery/static/media/home2.c887b4fad9b85f2dcae7.png",
     "static/media/home5.png": "/20th-street-recovery/static/media/home5.332add0d7c324fdad002.png",
     "static/media/slider2.jpg": "/20th-street-recovery/static/media/slider2.c1da6d34b673823f2a71.jpg",
     "static/media/hero-bg.jpg": "/20th-street-recovery/static/media/hero-bg.97e79ede1282216eeb54.jpg",
     "static/media/home6.png": "/20th-street-recovery/static/media/home6.38a0873a5e77ccf59571.png",
+    "static/media/treatment-1.jpg": "/20th-street-recovery/static/media/treatment-1.de0945a87956c1cea729.jpg",
     "static/media/home4.png": "/20th-street-recovery/static/media/home4.69294e498f7551a48e9a.png",
     "static/media/home3.png": "/20th-street-recovery/static/media/home3.2d7202400a2e7d280011.png",
     "static/media/mh-submenu-bg.jpg": "/20th-street-recovery/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
@@ -22,7 +22,6 @@
     "static/media/employment-assistance.jpg": "/20th-street-recovery/static/media/employment-assistance.901043c1cb7000c857c3.jpg",
     "static/media/menu-bg-treatment.jpg": "/20th-street-recovery/static/media/menu-bg-treatment.5ad277e8885721e9794e.jpg",
     "static/media/treatment-2.jpg": "/20th-street-recovery/static/media/treatment-2.eb22027327169f9ad6e2.jpg",
-    "static/media/treatment-1.jpg": "/20th-street-recovery/static/media/treatment-1.00ad8e52bf0bc1bbd6a3.jpg",
     "static/media/menu-bg-about.jpg": "/20th-street-recovery/static/media/menu-bg-about.3ce1099a8cc09b6d0f3f.jpg",
     "static/media/mental-health-submenu-bg.jpg": "/20th-street-recovery/static/media/mental-health-submenu-bg.3dc0ef9ef83c7e07296e.jpg",
     "static/media/contact-form-bg.jpg": "/20th-street-recovery/static/media/contact-form-bg.f8f51c24ccd4688fa090.jpg",
@@ -56,11 +55,11 @@
     "static/media/bluecross.png": "/20th-street-recovery/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.0b69a30d.css.map": "/20th-street-recovery/static/css/main.0b69a30d.css.map",
-    "main.d25c5530.js.map": "/20th-street-recovery/static/js/main.d25c5530.js.map"
+    "main.a7d33ea1.css.map": "/20th-street-recovery/static/css/main.a7d33ea1.css.map",
+    "main.06f0b7cd.js.map": "/20th-street-recovery/static/js/main.06f0b7cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b69a30d.css",
-    "static/js/main.d25c5530.js"
+    "static/css/main.a7d33ea1.css",
+    "static/js/main.06f0b7cd.js"
   ]
 }
