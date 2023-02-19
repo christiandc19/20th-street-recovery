@@ -11,12 +11,12 @@ import './TreatmentSection.css'
 const TreatmentSection = () => {
   return (
     <>
+
+
     <div className='container'>
-    <h1 className='treatment-section-header'>INPATIENT PROGRAMS</h1>
+        <h1 className='treatment-section-header'>INPATIENT PROGRAMS</h1>
     </div>
     
-
-
 {/* WRAP 1 */}
     <div className='ts-wrap'>
         <Fade left>

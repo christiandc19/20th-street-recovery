@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+.sampleSection {
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.sampleContainer {
+  width: 90%;
+  max-width: 1000px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.sample-left {
+  width: 70%;
+  height: 600px;
+  background: url(../../assets/treatment-1.jpg) no-repeat center / cover;
+  padding: 1rem;  
+  border-radius: 1rem;
+
+  -webkit-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+}
+
+.sample-right {
+  width: 70%;
+  min-height: 400px;
+  background: rgba(255, 255, 255, 0.671);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+
+  -webkit-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+}
+
+
+.sample-header {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.sample-right h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
+
+.header2 span {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(8, 75, 25);
+    font-weight: 800;
+}
+
+.sample-right p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: justify;
+  color: black;
+}
+
+.sample-right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sampleContainer {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+
+  .sample-left {
+    width: 100%;
+    height: 400px;
+  }
+
+  .sample-right {
+    width: 90%;
+    margin: 0;
+    margin-top: -100px;
+  }
+
+  .header2 span {
+    font-size: 20px;
+}
+
+}
+

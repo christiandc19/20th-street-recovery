@@ -4,12 +4,14 @@ import InsuranceSection from '../insurance/InsuranceSection';
 import Whoweare from '../Whoweare/Whoweare'
 import ContactForm from '../contact/ContactForm';
 
+import Sample from '../../components/sampleComponent/sample'
 
 
 const home = () => {
   return (
     <>
     {/* <WhatWeDo /> */}
+    <Sample />
     <Whoweare />
     <InsuranceSection />
     <ContactForm />
