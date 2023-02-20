@@ -6,11 +6,10 @@ const sample = () => {
   return (
     <>
             <Fade left>
-                      <h1 className='sample-header'>WHO WE ARE</h1><br/>
+                <h1 className='sample-header'>WHO WE ARE</h1><br/>
             </Fade>
 
-            <Fade right>
-
+<Fade right>
 <section className='sampleSection'>
   <div class="sampleContainer">
     
@@ -25,6 +24,7 @@ const sample = () => {
   </div>
 </section>
 </Fade>
+
 
     </>
   )
