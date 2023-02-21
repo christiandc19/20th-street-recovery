@@ -2,7 +2,7 @@ import React from 'react'
 import './Whoweare.css'
 import Fade from 'react-reveal/Fade';
 
-import Whoweare2 from '../../assets/slider2.jpg'
+import Whoweare2 from '../../assets/slider1.jpg'
 
 import Icon1 from '../../assets/icon1.png'
 import Icon2 from '../../assets/icon2.png'
@@ -48,8 +48,6 @@ const Whoweare = () => {
                 <img src={Whoweare2}  alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
-
-
     </div>
 
 

@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items:space-around;
-
+  padding: 1rem 0;
 }
 
 .tile
