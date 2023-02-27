@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 
+.sample {
+  padding: 5rem 0;
+
+}
+
 .sampleSection {
   min-height: 50vh;
   width: 100%;
@@ -50,7 +55,7 @@ box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
 
 .sample-header {
     text-align: center;
-    padding-top: 2rem;
+    padding: 2rem 1rem;
 }
 
 .sample-right h1 {
@@ -59,13 +64,6 @@ box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
   color: white;
 }
 
-.header2 span {
-    text-align: left;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(8, 75, 25);
-    font-weight: 800;
-}
 
 .sample-right p {
   margin: 20px 0;
@@ -103,9 +101,6 @@ box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
     margin-top: -100px;
   }
 
-  .header2 span {
-    font-size: 20px;
-}
 
 }
 
