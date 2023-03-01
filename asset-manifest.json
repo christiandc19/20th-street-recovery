@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.1e821547.css",
-    "main.js": "/20th-street-recovery/static/js/main.85b8c9a4.js",
+    "main.css": "/20th-street-recovery/static/css/main.e390e9e6.css",
+    "main.js": "/20th-street-recovery/static/js/main.4e125a02.js",
+    "static/media/slider1.jpg": "/20th-street-recovery/static/media/slider1.d139ea4dfd10aef54de5.jpg",
     "static/media/group.png": "/20th-street-recovery/static/media/group.12db5d8a58e586e23126.png",
     "static/media/nav-logo.png": "/20th-street-recovery/static/media/nav-logo.a73e71833578fdf63b51.png",
-    "static/media/slider1.jpg": "/20th-street-recovery/static/media/slider1.23b4c84cd18309a24927.jpg",
     "static/media/home1.png": "/20th-street-recovery/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/home2.png": "/20th-street-recovery/static/media/home2.c887b4fad9b85f2dcae7.png",
     "static/media/submenu-bg-jobs.jpg": "/20th-street-recovery/static/media/submenu-bg-jobs.d2178664ff0d9af2dd6e.jpg",
@@ -56,11 +56,11 @@
     "static/media/bluecross.png": "/20th-street-recovery/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.1e821547.css.map": "/20th-street-recovery/static/css/main.1e821547.css.map",
-    "main.85b8c9a4.js.map": "/20th-street-recovery/static/js/main.85b8c9a4.js.map"
+    "main.e390e9e6.css.map": "/20th-street-recovery/static/css/main.e390e9e6.css.map",
+    "main.4e125a02.js.map": "/20th-street-recovery/static/js/main.4e125a02.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e821547.css",
-    "static/js/main.85b8c9a4.js"
+    "static/css/main.e390e9e6.css",
+    "static/js/main.4e125a02.js"
   ]
 }
