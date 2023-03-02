@@ -1,67 +1,171 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.wrap {
-  display: flex;
-  flex-wrap: wrap ;
-  justify-content: space-evenly;
-  margin: 2rem 0 0 0;
-  padding: 1rem 0;
+
+
+/* WRAP 1 */
+
+.wrap1  {
+    background-color: #85c7de;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    padding: 0 0 10rem 0;
+    position: relative;
+}
+
+.wrap1 .right, .wrap1 .left {
+    width: 630px;
+    padding: 2rem;
+}
+
+.wrap1 .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap1 .left {
+    padding-top: 12rem;
+}
+
+.wrap1 .left p {
+    font-size: 14px;
+}
+
+.wrap1 .left span {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.wrap1-shape-divider-top {
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wrap1-shape-divider-top img {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.wrap1-shape-divider-top .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+.wrap1-shape-divider-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wrap1-shape-divider-bottom img {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.wrap1-shape-divider-bottom .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+/* WRAP 2 */
+
+.wrap2 {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    padding: 3rem 0;
+    gap: 2rem;
+}
+
+.wrap2 .right {
+    width: 400px;
+    padding: 1.5rem;
+}
+
+
+.wrap2 .left {
+    width: 700px;
+    padding: 1.5rem;
+    padding-top: 3rem;
+}
+
+
+.wrap2 .right img {
+    width: 100%;
 }
 
 .reverse-wrap {
     flex-wrap: wrap-reverse;
 }
 
-.reverse-wrap .right {
-    width: 500px;
+.wrap2 h3 {
+    color: var(--primary-color);
 }
 
-.reverse-wrap .right img {
-    border-radius: 1rem;
-    width: 100%;
+.wrap2 p {
+    text-align: justify;
 }
 
 
-.right, .left {
+/* WRAP 3 */
+
+.wrap3  {
+    background-color: #85c7de;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    padding: 0 0 3rem 0;
+}
+
+.wrap3 .right, .wrap3 .left {
     width: 630px;
     padding: 2rem;
 }
 
-.right img {
+.wrap3 .right img {
     width: 100%;
     height: 100%;
 }
 
+.wrap3 .left {
+    padding-top: 10rem;
+}
 
+.wrap3 .left .icons span {
+    color: white;
+}
 
-.wrap .icon-header {
-    text-align: center;
+.wrap3 .icon-header {
+    text-align: left;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0 2rem;
 }
 
-.wrap .header2 {
-    text-align: justify;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-}
-
-.wrap .header2 span {
-    text-align: left;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.wrap p, .wrap ul li {
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-}
-
-.box-btn {
-    text-align: center;
-}
 
 .Whoweare-icon {
     width: 600px;
@@ -76,27 +180,11 @@
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0px 15px 40px -20px rgba(0,0,0,0.64);
-    width: auto;
 }
 
 .icons p {
     width: 500px;
     margin-left: 1rem;
-}
-
-
-.header2 span {
-    text-align: left;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(8, 75, 25);
-    font-weight: 800;
-}
-
-
-
-.wrap .left .left1 p {
-    font-size: 15px;
 }
 
 
@@ -112,58 +200,25 @@
         height: 50px;
     }
 
-    .wrap p, .wrap .header2 {
-        font-size: 14px;
-        margin: 1rem;
-    }
-
-    .wrap .header2 {
-        font-size: 14px;
-        margin: 0 1rem;
-    }
-
-    .wrap .header {
-        margin: 0 1rem
-    }
-
-    .wrap .header2 span {
-        font-size: 22px;
-    }
-
     .left .Whoweare-icon{
         width: 100%;
     }
 
-    .left h1 {
-        font-size: 2rem;
-    }
-
-    .left button {
-    margin: 1rem auto;
-    }
-
-    .wrap .left1 {
-        position: relative;
-        transform: translateY(5%);
-    }
-
     .icons p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
 }
 
-
 @media screen and (max-width:500px) {
     .icons {
         width: 360px;
-        height: 125px;
+        height: 90px;
         margin: auto;
     }
 
-
-    .wrap {
-        margin: 1rem 0 0 0;
-      }
-
+    .wrap3 .icon-header {
+        text-align: center;
+    }
+    
 }
