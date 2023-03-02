@@ -12,7 +12,7 @@ import Icon2 from '../../assets/icon2.png'
 import Icon3 from '../../assets/icon3.png'
 
 import WaveWrap from '../../assets/waves-wrap.svg'
-import WaveWrapBottom from '../../assets/waves-wrap-bottom.svg'
+// import WaveWrapBottom from '../../assets/waves-wrap-bottom.svg'
 
 
 
@@ -46,10 +46,10 @@ const Whoweare = () => {
 
 
 
-
+{/* 
         <div className='wrap1-shape-divider-bottom'>
     <img src={WaveWrapBottom} loading="lazy" repeat-x alt='wave divider'/>
-    </div>
+    </div> */}
 
     </div>
 

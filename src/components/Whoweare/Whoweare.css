@@ -11,7 +11,7 @@
     flex-wrap: wrap ;
     justify-content: space-evenly;
     margin: 2rem 0;
-    padding: 0 0 10rem 0;
+    padding: 0 0 5rem 0;
     position: relative;
 }
 
@@ -63,7 +63,7 @@
 
 
 
-.wrap1-shape-divider-bottom {
+/* .wrap1-shape-divider-bottom {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -81,7 +81,7 @@
 
 .wrap1-shape-divider-bottom .shape-fill {
     fill: #FFFFFF;
-}
+} */
 
 
 
