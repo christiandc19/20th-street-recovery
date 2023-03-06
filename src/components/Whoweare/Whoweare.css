@@ -9,14 +9,14 @@
     padding: 3rem;
     display: flex;
     flex-wrap: wrap ;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 2rem 0;
     padding: 0 0 5rem 0;
     position: relative;
 }
 
 .wrap1 .right, .wrap1 .left {
-    width: 630px;
+    width: 730px;
     padding: 2rem;
 }
 
@@ -26,11 +26,12 @@
 }
 
 .wrap1 .left {
-    padding-top: 12rem;
+    padding-top: 15rem;
 }
 
 .wrap1 .left p {
     font-size: 14px;
+    text-align: justify;
 }
 
 .wrap1 .left span {
@@ -59,29 +60,6 @@
 .wrap1-shape-divider-top .shape-fill {
     fill: #FFFFFF;
 }
-
-
-
-
-/* .wrap1-shape-divider-bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.wrap1-shape-divider-bottom img {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-}
-
-.wrap1-shape-divider-bottom .shape-fill {
-    fill: #FFFFFF;
-} */
 
 
 
@@ -155,14 +133,14 @@
 }
 
 .wrap3 .left .icons span {
-    color: rgb(230, 7, 211);
+    color: white;
 }
 
 .wrap3 .icon-header {
     text-align: left;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(230, 7, 211);
+    color: white;
     padding: 0 2rem;
 }
 

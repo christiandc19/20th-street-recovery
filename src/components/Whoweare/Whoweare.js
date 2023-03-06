@@ -3,7 +3,7 @@ import './Whoweare.css'
 import Fade from 'react-reveal/Fade';
 import { FaRegStar } from 'react-icons/fa';
 
-import Whoweare1 from '../../assets/slider1.jpg'
+import Whoweare1 from '../../assets/slider5.png'
 import Whoweare2 from '../../assets/whoweare2.png'
 import Whoweare3 from '../../assets/slider2.jpg'
 
@@ -12,7 +12,6 @@ import Icon2 from '../../assets/icon2.png'
 import Icon3 from '../../assets/icon3.png'
 
 import WaveWrap from '../../assets/waves-wrap.svg'
-// import WaveWrapBottom from '../../assets/waves-wrap-bottom.svg'
 
 
 
@@ -45,11 +44,6 @@ const Whoweare = () => {
         </Fade>
 
 
-
-{/* 
-        <div className='wrap1-shape-divider-bottom'>
-    <img src={WaveWrapBottom} loading="lazy" repeat-x alt='wave divider'/>
-    </div> */}
 
     </div>
 

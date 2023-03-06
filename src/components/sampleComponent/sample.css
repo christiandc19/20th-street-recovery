@@ -24,15 +24,15 @@
 }
 
 .sample-left {
-  width: 80%;
-  height: 600px;
-  background: url(../../assets/treatment-1.jpg) no-repeat center / cover;
+  width: 100%;
+  height: 500px;
+  background: url(../../assets/slider1.jpg) no-repeat center / cover;
   padding: 1rem;  
   border-radius: 1rem;
 
-  -webkit-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+  /* -webkit-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
 -moz-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
-box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75);
+box-shadow: 17px 10px 28px -18px rgba(0,0,0,0.75); */
 }
 
 .sample-right {

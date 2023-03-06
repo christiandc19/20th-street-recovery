@@ -7,15 +7,16 @@ const sample = () => {
     <>
 
 <div className='sample'>
-            <Fade left>
+            <Fade right>
                 <h1 className='sample-header'>THE BEST OUTPATIENT TREATMENT CENTER IN LOS ANGELES CALIFORNIA</h1><br/>
             </Fade>
 
-<Fade right>
+<Fade bottom>
 <section className='sampleSection'>
   <div class="sampleContainer">
     
     <div class="sample-left"></div>
+
     <div class="sample-right">
       <div class="content">
         
