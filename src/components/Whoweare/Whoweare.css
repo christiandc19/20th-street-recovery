@@ -155,14 +155,14 @@
 }
 
 .wrap3 .left .icons span {
-    color: white;
+    color: rgb(230, 7, 211);
 }
 
 .wrap3 .icon-header {
     text-align: left;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: rgb(230, 7, 211);
     padding: 0 2rem;
 }
 
@@ -185,6 +185,7 @@
 .icons p {
     width: 500px;
     margin-left: 1rem;
+    color: rgb(95, 55, 2);
 }
 
 
@@ -208,6 +209,10 @@
         font-size: 12px;
     }
 
+    .wrap3 .icon-header {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -215,10 +220,6 @@
         width: 360px;
         height: 90px;
         margin: auto;
-    }
-
-    .wrap3 .icon-header {
-        text-align: center;
     }
     
 }

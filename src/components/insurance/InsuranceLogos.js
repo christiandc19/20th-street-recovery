@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../components/insurance/InsuranceLogos.css'
+import './InsuranceLogos.css'
 
 
 function InsuranceLogos(props) {

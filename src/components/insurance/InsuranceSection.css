@@ -1,80 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-.InsuranceSection {
-    width: 100%;
-    position: relative;
-}
-
-.InsuranceSection .content {
+.insuranceLogosContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    gap: 1rem;
+    padding: 3rem 0rem;
 }
 
-.InsuranceSection-container {
+
+.InsuranceSectionHeader {
     text-align: center;
-    padding: 25px;
+    padding: 3rem;
 }
 
-.InsuranceSection-container p {
-        padding: 1rem 0;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-.InsuranceSection h1 {
-    padding: 1rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.insurance-thumbnail img {
-    margin: 5px;
-    width: 120px;
-    padding: 5px;
-    border: 1px solid var(--primary-color);
-    border-radius: 1rem;
-}
-
-.InsuranceSection .flex-right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.insuranceSection-btn button {
-    margin: 1rem auto;
-}
-
-.group {
+.call {
     width: 500px;
     margin: auto;
+    margin: 1rem  auto -3rem auto;
+    padding: 1rem;
 }
 
-.group img {
+.call img {
     width: 100%;
-    padding: 2rem;
-    margin-bottom: -5rem;
-}
-
-@media  screen and (max-width:940px) {
-    .InsuranceSection-container h1 {
-        font-size: 1.5rem;
-        padding: 1rem 0;
-    }
-
-    .InsuranceSection-container p {
-        font-size: 14px;
-    }
-}
-
-
-@media  screen and (max-width:500px) {
-    .group {
-        width: 350px;
-        margin: auto;
-    }
-    
-    .group img {
-        width: 100%;
-    }
-    
 }
