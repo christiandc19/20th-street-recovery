@@ -23,17 +23,11 @@ const Whoweare = () => {
 
     <div className='wrap1'>
 
-{/* <div className='wrap1-shape-divider-top'>
-    <img src={WaveWrap} loading="lazy" repeat-x alt='wave divider'/>
-    </div> */}
-
-
-
 
         <Fade right>
             <div className="left">
                 <p>At <span>20TH STREET RECOVERY,</span> we provide safe and comfortable medical detox services for those struggling with addiction.
-                To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.</p>
+                To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> </p>
             </div>
         </Fade>
 
@@ -61,7 +55,12 @@ const Whoweare = () => {
 
         <Fade right>
             <div className="left">
-                <h3>EVALUATION INCLUDES: </h3><br />
+
+                <p>
+                <h3>EVALUATIONS </h3><br />
+                These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.
+                </p><br />
+
                 <p>
                 <ul>
                     <li>
