@@ -12,7 +12,7 @@
 .footer:before {
     content:'';
     position: absolute;
-    background: url('../../assets/footer-bg.jpg')no-repeat center center/cover;
+    background: url('../../assets/hero-bg-2.jpg')no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

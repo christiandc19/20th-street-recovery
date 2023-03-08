@@ -23,9 +23,9 @@ const Whoweare = () => {
 
     <div className='wrap1'>
 
-<div className='wrap1-shape-divider-top'>
+{/* <div className='wrap1-shape-divider-top'>
     <img src={WaveWrap} loading="lazy" repeat-x alt='wave divider'/>
-    </div>
+    </div> */}
 
 
 

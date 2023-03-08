@@ -5,13 +5,13 @@
 /* WRAP 1 */
 
 .wrap1  {
-    background-color: #85c7de;
+    background-color: #b8b8ff;
     padding: 3rem;
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
-    margin: 2rem 0;
-    padding: 0 0 5rem 0;
+    margin: 5rem 0;
+    padding: 0 0 3rem 0;
     position: relative;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .wrap1 .left {
-    padding-top: 15rem;
+    padding-top: 10rem;
 }
 
 .wrap1 .left p {
@@ -109,7 +109,7 @@
 /* WRAP 3 */
 
 .wrap3  {
-    background-color: #85c7de;
+    background-color: #b8b8ff;
     padding: 3rem;
     display: flex;
     flex-wrap: wrap ;
