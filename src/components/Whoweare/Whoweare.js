@@ -65,10 +65,10 @@ const Whoweare = () => {
                 <ul>
                     <li>
                         <FaRegStar className='star'/> A comprehensive medical assessment by a doctor to create an individualized treatment plan.
-                    </li><br />
+                    </li>
                     <li>
                         <FaRegStar className='star'/> Urine tests and other lab tests.
-                    </li><br />
+                    </li>
                     <li>
                         <FaRegStar className='star'/> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
                     </li><br />

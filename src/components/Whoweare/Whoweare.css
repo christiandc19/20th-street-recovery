@@ -3,24 +3,24 @@
 /* WRAP 1 */
 
 .wrap1  {
-    background-color: #b8b8ff;
+    /* background: url('../../assets/hero-bg2.jpg') no-repeat center center/cover; */
     padding: 3rem;
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
-    margin: 5rem 0;
+    margin: 2rem 0;
     padding: 0 0 3rem 0;
     position: relative;
 }
 
 .wrap1 .right {
-    width: 730px;
+    width: 700px;
     padding: 2rem;
 }
 
  .wrap1 .left {
-    width: 600px;
-    padding: 2rem;
+    width: 500px;
+    padding:  0 1rem ;
 }
 
 
@@ -30,7 +30,7 @@
 }
 
 .wrap1 .left {
-    padding-top: 10rem;
+    margin: auto;
 }
 
 
@@ -38,7 +38,7 @@
 .wrap1 .left p {
     font-size: 20px;
     text-align: center;
-    color: rgb(66, 64, 64);
+    color: rgb(31, 30, 30);
     font-family: 'Playfair Display', serif;
 
 }
@@ -46,7 +46,7 @@
 .wrap1 .left span {
     font-size: 25px;
     font-weight: 600;
-    color: var(--primary-color);
+    color: black;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: -1px;
 }
@@ -82,8 +82,7 @@
     padding: 3rem;
     display: flex;
     justify-content: space-around;
-    margin: 2rem 0;
-    padding: 3rem 0;
+    padding: 0;
     gap: 2rem;
 }
 
@@ -96,7 +95,7 @@
 .wrap2 .left {
     width: 700px;
     padding: 1.5rem;
-    padding-top: 3rem;
+    
 }
 
 
@@ -120,7 +119,7 @@
 /* WRAP 3 */
 
 .wrap3  {
-    background-color: #b8b8ff;
+    background-color: #f0f0f0;
     padding: 3rem;
     display: flex;
     flex-wrap: wrap ;
@@ -182,8 +181,20 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:1200px) {
 
+    .wrap1 .left {
+        width: 900px;
+        padding: 3rem 1rem 0 1rem;
+    }
+
+    .wrap2 .left {
+        width: 900px;
+
+    }
+}
+
+@media screen and (max-width:940px) {
 
     .Whoweare-icon img {
         width: 50px;

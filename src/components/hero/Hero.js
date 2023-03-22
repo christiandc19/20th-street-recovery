@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 
-import Wave from '../../assets/waves.svg'
+// import Wave from '../../assets/waves.svg'
 
 
 
@@ -10,9 +10,9 @@ const Hero = () => {
 <>        
 <div className='hero'>
 
-<div className='hero-divider'>
+{/* <div className='hero-divider'>
         <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-    </div>
+    </div> */}
 
 
 
