@@ -143,14 +143,14 @@
 }
 
 .wrap3 .left .icons span {
-    color: white;
+    color: var(--primary-color);
 }
 
 .wrap3 .icon-header {
     text-align: left;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: var(--primary-color);
     padding: 0 2rem;
 }
 
