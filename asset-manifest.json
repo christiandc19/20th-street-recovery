@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.cb453a89.css",
+    "main.css": "/20th-street-recovery/static/css/main.9855dfba.css",
     "main.js": "/20th-street-recovery/static/js/main.9cc4b96d.js",
     "static/media/slider1.jpg": "/20th-street-recovery/static/media/slider1.60abeebaaca72ee69398.jpg",
     "static/media/group.png": "/20th-street-recovery/static/media/group.12db5d8a58e586e23126.png",
@@ -60,11 +60,11 @@
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves-wrap.svg": "/20th-street-recovery/static/media/waves-wrap.4ae987f3d360a0143503ff66c1aadbe8.svg",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.cb453a89.css.map": "/20th-street-recovery/static/css/main.cb453a89.css.map",
+    "main.9855dfba.css.map": "/20th-street-recovery/static/css/main.9855dfba.css.map",
     "main.9cc4b96d.js.map": "/20th-street-recovery/static/js/main.9cc4b96d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb453a89.css",
+    "static/css/main.9855dfba.css",
     "static/js/main.9cc4b96d.js"
   ]
 }
