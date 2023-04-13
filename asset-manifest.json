@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.9855dfba.css",
-    "main.js": "/20th-street-recovery/static/js/main.9cc4b96d.js",
+    "main.css": "/20th-street-recovery/static/css/main.6d2ab54a.css",
+    "main.js": "/20th-street-recovery/static/js/main.793bdb26.js",
     "static/media/slider1.jpg": "/20th-street-recovery/static/media/slider1.60abeebaaca72ee69398.jpg",
     "static/media/group.png": "/20th-street-recovery/static/media/group.12db5d8a58e586e23126.png",
     "static/media/whoweare2.png": "/20th-street-recovery/static/media/whoweare2.025ef9f8907bd8572510.png",
@@ -9,8 +9,6 @@
     "static/media/slider2.jpg": "/20th-street-recovery/static/media/slider2.1b6009f43c3f232e2b26.jpg",
     "static/media/slider5.png": "/20th-street-recovery/static/media/slider5.fb98d6f0eb77edaf4a8d.png",
     "static/media/nav-logo.png": "/20th-street-recovery/static/media/nav-logo.a73e71833578fdf63b51.png",
-    "static/media/hero-bg2.jpg": "/20th-street-recovery/static/media/hero-bg2.f2e15fcdd367d7ffada7.jpg",
-    "static/media/hero-bg-2.jpg": "/20th-street-recovery/static/media/hero-bg-2.83af944b4136ff45a064.jpg",
     "static/media/home1.png": "/20th-street-recovery/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/home2.png": "/20th-street-recovery/static/media/home2.c887b4fad9b85f2dcae7.png",
     "static/media/submenu-bg-jobs.jpg": "/20th-street-recovery/static/media/submenu-bg-jobs.d2178664ff0d9af2dd6e.jpg",
@@ -26,7 +24,9 @@
     "static/media/menu-bg-mission.jpg": "/20th-street-recovery/static/media/menu-bg-mission.2622a06134fb08274d7b.jpg",
     "static/media/submenu-bg-residence.jpg": "/20th-street-recovery/static/media/submenu-bg-residence.13b721ef0ebbc74b6121.jpg",
     "static/media/home8.png": "/20th-street-recovery/static/media/home8.306cea22fb053c309d37.png",
+    "static/media/hero-bg-2.jpg": "/20th-street-recovery/static/media/hero-bg-2.b6d54745718b506b1ae4.jpg",
     "static/media/employment-assistance.jpg": "/20th-street-recovery/static/media/employment-assistance.901043c1cb7000c857c3.jpg",
+    "static/media/section-bg.jpg": "/20th-street-recovery/static/media/section-bg.50914f80957cedff4d6e.jpg",
     "static/media/treatment-2.jpg": "/20th-street-recovery/static/media/treatment-2.eb22027327169f9ad6e2.jpg",
     "static/media/menu-bg-about.jpg": "/20th-street-recovery/static/media/menu-bg-about.3ce1099a8cc09b6d0f3f.jpg",
     "static/media/mental-health-submenu-bg.jpg": "/20th-street-recovery/static/media/mental-health-submenu-bg.3dc0ef9ef83c7e07296e.jpg",
@@ -60,11 +60,11 @@
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves-wrap.svg": "/20th-street-recovery/static/media/waves-wrap.4ae987f3d360a0143503ff66c1aadbe8.svg",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.9855dfba.css.map": "/20th-street-recovery/static/css/main.9855dfba.css.map",
-    "main.9cc4b96d.js.map": "/20th-street-recovery/static/js/main.9cc4b96d.js.map"
+    "main.6d2ab54a.css.map": "/20th-street-recovery/static/css/main.6d2ab54a.css.map",
+    "main.793bdb26.js.map": "/20th-street-recovery/static/js/main.793bdb26.js.map"
   },
   "entrypoints": [
-    "static/css/main.9855dfba.css",
-    "static/js/main.9cc4b96d.js"
+    "static/css/main.6d2ab54a.css",
+    "static/js/main.793bdb26.js"
   ]
 }
