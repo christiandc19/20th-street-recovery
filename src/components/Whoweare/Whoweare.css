@@ -3,13 +3,12 @@
 /* WRAP 1 */
 
 .wrap1  {
-    background-color: #b8b8ff;
-    padding: 3rem;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    padding: 0 3rem;
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
-    margin: 5rem 0;
-    padding: 0 0 3rem 0;
+    margin: 1rem 0;
     position: relative;
 }
 
@@ -120,7 +119,7 @@
 /* WRAP 3 */
 
 .wrap3  {
-    background-color: #b8b8ff;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
     padding: 3rem;
     display: flex;
     flex-wrap: wrap ;
@@ -144,14 +143,14 @@
 }
 
 .wrap3 .left .icons span {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .wrap3 .icon-header {
     text-align: left;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: rgb(24, 24, 24);
     padding: 0 2rem;
 }
 

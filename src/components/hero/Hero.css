@@ -34,14 +34,14 @@
 .hero h1 {
     font-size: 6rem;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero h2 {
     font-size: 1.5rem;
     text-align: center;
-    color: #5c13bb;
+    color: #292828d2;
     margin: 0 1rem;
     text-transform: uppercase;
 }
@@ -58,7 +58,7 @@
 
 
     .hero h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .hero h2 {
@@ -70,7 +70,7 @@
     }
 
     .hero .hero-container  {
-        top: 20%;
+        top: 15%;
     }
     
 
