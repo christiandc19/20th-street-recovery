@@ -26,8 +26,7 @@ const Whoweare = () => {
 
         <Fade right>
             <div className="left">
-                <p>At <span>20TH STREET RECOVERY,</span> we provide safe and comfortable medical detox services for those struggling with addiction.
-                To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> </p>
+            <p> You may have lost your way but here you won’t get lost in the crowd. 20th Street Recovery is an inviting, home-like environment where compassionate clinicians and staff members work collaboratively with you to address your unique needs. Rooted in the 12-step philosophy and a trauma-informed, evidence-based approach, we’ll show you how to manage and live with addiction, co-occurring disorders and other underlying issues, like anxiety or depression. Surrounded by a supportive recovery community, you’ll heal internally and, in turn, heal your relationships. Find your footing here and get ready for the next phase of your life. </p>
             </div>
         </Fade>
 
@@ -65,10 +64,10 @@ const Whoweare = () => {
                 <ul>
                     <li>
                         <FaRegStar className='star'/> A comprehensive medical assessment by a doctor to create an individualized treatment plan.
-                    </li><br />
+                    </li>
                     <li>
                         <FaRegStar className='star'/> Urine tests and other lab tests.
-                    </li><br />
+                    </li>
                     <li>
                         <FaRegStar className='star'/> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
                     </li><br />
