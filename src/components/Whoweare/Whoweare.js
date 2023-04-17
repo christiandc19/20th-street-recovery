@@ -4,14 +4,12 @@ import Fade from 'react-reveal/Fade';
 import { FaRegStar } from 'react-icons/fa';
 
 import Whoweare1 from '../../assets/slider5.png'
-import Whoweare2 from '../../assets/whoweare2.png'
 import Whoweare3 from '../../assets/slider2.jpg'
 
 import Icon1 from '../../assets/icon1.png'
 import Icon2 from '../../assets/icon2.png'
 import Icon3 from '../../assets/icon3.png'
 
-import WaveWrap from '../../assets/waves-wrap.svg'
 
 
 
@@ -46,7 +44,7 @@ const Whoweare = () => {
 
         <Fade left>
             <div className="right">
-                {/* <img src={Whoweare1}  alt="Conselling Session with a patient" loading="lazy" /> */}
+                <img src={Whoweare1}  alt="Conselling Session with a patient" loading="lazy" />
             </div>
         </Fade>
 
@@ -61,12 +59,15 @@ const Whoweare = () => {
 
 
         <Fade right>
-            <div className='wrap2-container'>
-                <div className="content">
-                    <h1>A healthier choice for a healthier you. </h1>
-                    <p>We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.</p>
+            <div className="content">
+                <p>
+                <h1>A healthier choice for a healthier you. </h1>
+                </p><br />
+                <p>
+ 
+                We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.
+                </p>
                 </div>
-            </div>
         </Fade>
     </div>
 
@@ -77,10 +78,6 @@ const Whoweare = () => {
 
     <div className='wrap3'>
 
-
-    <div className='wrap1-shape-divider-top'>
-    <img src={WaveWrap} loading="lazy" repeat-x alt='wave divider'/>
-    </div>
 
         <Fade right>
             <div className="left">
