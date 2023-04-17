@@ -25,23 +25,10 @@ import OXYCODONE from './routes/OXYCODONE';
 import PRESCRIPTIONS from './routes/PRESCRIPTIONS';
 import XANAX from './routes/XANAX';
 
-import AcuteStressDisorder from './routes/AcuteStressDisorder';
-import ADHD from './routes/ADHD';
-import AngerDisorder from './routes/AngerDisorder';
-import Anxiety from './routes/Anxiety';
-import BipolarDisorder from './routes/BipolarDisorder';
-import Depression from './routes/DepressionPage';
-import PanicDisorder from './routes/PanicDisorderPage';
-import PTSD from './routes/PTSDPage';
-import Schizoaffective from './routes/SchizoaffectivePage';
-import Schizophrenia from './routes/SchizophreniaPage';
-
-
-import SA from './routes/SA';
-import MH from './routes/MH';
 
 import Jobs from './routes/JOBS';
 import Team from './routes/Team';
+import SA from './routes/SA';
 
 
 ReactDOM.render(
@@ -61,19 +48,8 @@ ReactDOM.render(
       <Route exact path='/prescriptions' element={<PRESCRIPTIONS />} />
       <Route exact path='/xanax' element={<XANAX />} />
 
-      <Route exact path='/acute-stress-disorder' element={<AcuteStressDisorder />} />
-      <Route exact path='/adhd' element={<ADHD />} />
-      <Route exact path='/anger-disorder' element={<AngerDisorder />} />
-      <Route exact path='/anxiety' element={<Anxiety />} />
-      <Route exact path='/bipolar-disorder' element={<BipolarDisorder />} />
-      <Route exact path='/depression' element={<Depression />} />
-      <Route exact path='/panic-disorder' element={<PanicDisorder />} />
-      <Route exact path='/ptsd' element={<PTSD />} />
-      <Route exact path='/schizoaffective' element={<Schizoaffective />} />
-      <Route exact path='/schizophrenia' element={<Schizophrenia />} />
-
-      <Route exact path='/mental-health' element={<MH />} />
       <Route exact path='/substance-abuse' element={<SA />} />
+
 
       <Route exact path='/jobs' element={<Jobs />} />
       <Route exact path='/treatment' element={<TreatmentPage />} />

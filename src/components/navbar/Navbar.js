@@ -87,7 +87,7 @@ const Navbar = () => {
 
 
 
-                    <li><Link to='/treatment'>Treatment</Link> </li>
+                    <li><Link to='/treatment'>Our Method</Link> </li>
 
 
 

@@ -100,67 +100,6 @@
 }
 
 
-/* WRAP 3 */
-
-.wrap3  {
-    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
-    padding: 3rem;
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: space-evenly;
-    margin: 2rem 0;
-    padding: 0 0 3rem 0;
-}
-
-.wrap3 .right, .wrap3 .left {
-    width: 630px;
-    padding: 2rem;
-}
-
-.wrap3 .right img {
-    width: 100%;
-    height: 100%;
-}
-
-.wrap3 .left {
-    padding-top: 10rem;
-}
-
-.wrap3 .left .icons span {
-    color: rgb(0, 0, 0);
-}
-
-.wrap3 .icon-header {
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(24, 24, 24);
-    padding: 0 2rem;
-}
-
-
-.Whoweare-icon {
-    width: 600px;
-}
-
-.icons {
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    text-align: center;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0px 15px 40px -20px rgba(0,0,0,0.64);
-}
-
-.icons p {
-    width: 500px;
-    margin-left: 1rem;
-    color: rgb(95, 55, 2);
-}
-
-
 
 
 /* MEDIA QUERIES */
@@ -189,13 +128,7 @@
         width: 100%;
     }
 
-    .icons p {
-        font-size: 12px;
-    }
-
-    .wrap3 .icon-header {
-        text-align: center;
-    }
+    
 
     .wrap1 .left h1{
         font-size: 2.5rem;
@@ -225,12 +158,4 @@
     }
 }
 
-@media screen and (max-width:500px) {
-    .icons {
-        width: 360px;
-        height: 90px;
-        margin: auto;
-    }
-    
-}
 

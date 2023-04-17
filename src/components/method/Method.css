@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.method {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgba(13, 14, 13, 0.308);  }
+
+.method:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/method-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+  
+  .method-container {
+    top: 35%;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 5rem ;
+}
+
+
+.method .method-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.method-content-left {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.method-content-left h1{
+  text-align: center;
+  color: rgb(230, 230, 230);
+  font-size: 5rem;
+}
+
+.method-content-right {
+  width: 50%;
+}
+
+.method-content-right img{
+  width: 100%;
+  padding: 2rem;
+}
+
+/* MEDIA QUERIES - HERO */
+
+@media screen and (max-width:1200px) {
+
+.method h1 {
+    font-size: 4rem;
+}
+
+.method-content-left {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0rem;
+}
+
+.method-content-right {
+  width: 450px;
+}
+
+
+}

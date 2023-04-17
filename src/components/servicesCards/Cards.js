@@ -43,7 +43,7 @@ const Cards = () => {
         <p class="animate-text">Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time.</p>
       <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/mental-health">
+        <Link to="/substance-abuse">
             <button>Learn More</button>
         </Link>
     </LinkRoll>
