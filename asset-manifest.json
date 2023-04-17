@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.6d2ab54a.css",
-    "main.js": "/20th-street-recovery/static/js/main.793bdb26.js",
+    "main.css": "/20th-street-recovery/static/css/main.0f1644e1.css",
+    "main.js": "/20th-street-recovery/static/js/main.aa8f9075.js",
     "static/media/slider1.jpg": "/20th-street-recovery/static/media/slider1.60abeebaaca72ee69398.jpg",
     "static/media/group.png": "/20th-street-recovery/static/media/group.12db5d8a58e586e23126.png",
     "static/media/whoweare2.png": "/20th-street-recovery/static/media/whoweare2.025ef9f8907bd8572510.png",
     "static/media/hero-image.png": "/20th-street-recovery/static/media/hero-image.36c4c9cf6f2e95eefe94.png",
     "static/media/slider2.jpg": "/20th-street-recovery/static/media/slider2.1b6009f43c3f232e2b26.jpg",
     "static/media/slider5.png": "/20th-street-recovery/static/media/slider5.fb98d6f0eb77edaf4a8d.png",
+    "static/media/hero-bg-1.jpg": "/20th-street-recovery/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
     "static/media/nav-logo.png": "/20th-street-recovery/static/media/nav-logo.a73e71833578fdf63b51.png",
     "static/media/home1.png": "/20th-street-recovery/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/home2.png": "/20th-street-recovery/static/media/home2.c887b4fad9b85f2dcae7.png",
@@ -26,8 +27,10 @@
     "static/media/home8.png": "/20th-street-recovery/static/media/home8.306cea22fb053c309d37.png",
     "static/media/hero-bg-2.jpg": "/20th-street-recovery/static/media/hero-bg-2.b6d54745718b506b1ae4.jpg",
     "static/media/employment-assistance.jpg": "/20th-street-recovery/static/media/employment-assistance.901043c1cb7000c857c3.jpg",
+    "static/media/card3.jpg": "/20th-street-recovery/static/media/card3.cf6c72c259552505da57.jpg",
     "static/media/section-bg.jpg": "/20th-street-recovery/static/media/section-bg.50914f80957cedff4d6e.jpg",
     "static/media/treatment-2.jpg": "/20th-street-recovery/static/media/treatment-2.eb22027327169f9ad6e2.jpg",
+    "static/media/card1.jpg": "/20th-street-recovery/static/media/card1.67a6f041dd030244deee.jpg",
     "static/media/menu-bg-about.jpg": "/20th-street-recovery/static/media/menu-bg-about.3ce1099a8cc09b6d0f3f.jpg",
     "static/media/mental-health-submenu-bg.jpg": "/20th-street-recovery/static/media/mental-health-submenu-bg.3dc0ef9ef83c7e07296e.jpg",
     "static/media/contact-form-bg.jpg": "/20th-street-recovery/static/media/contact-form-bg.f8f51c24ccd4688fa090.jpg",
@@ -46,12 +49,21 @@
     "static/media/team6-min.jpg": "/20th-street-recovery/static/media/team6-min.ab3ea8b49b168c671184.jpg",
     "static/media/clinic.jpg": "/20th-street-recovery/static/media/clinic.df2089786a9615989f92.jpg",
     "static/media/team1-min.jpg": "/20th-street-recovery/static/media/team1-min.4396fea94291b3910114.jpg",
+    "static/media/meth.jpg": "/20th-street-recovery/static/media/meth.957a41943628d3be3be4.jpg",
+    "static/media/mdma.jpg": "/20th-street-recovery/static/media/mdma.eeb52e72b8fe44cf6ff5.jpg",
+    "static/media/oxycodone.jpg": "/20th-street-recovery/static/media/oxycodone.c1c02874b8822e98e797.jpg",
+    "static/media/cocaine.jpg": "/20th-street-recovery/static/media/cocaine.2e99e826c4ed1b3d3234.jpg",
+    "static/media/alcohol.jpg": "/20th-street-recovery/static/media/alcohol.035f0248701b4212ca56.jpg",
+    "static/media/opioid.jpg": "/20th-street-recovery/static/media/opioid.a21a373657b4126db251.jpg",
+    "static/media/fentanyl.jpg": "/20th-street-recovery/static/media/fentanyl.a5b688a8c8e5cc693ef6.jpg",
+    "static/media/heroin.jpg": "/20th-street-recovery/static/media/heroin.975e13e5bc8b64e7284e.jpg",
+    "static/media/xanax.jpg": "/20th-street-recovery/static/media/xanax.66fb1d33aaa3cc9ae06b.jpg",
+    "static/media/prescription.jpg": "/20th-street-recovery/static/media/prescription.34f9364a2ca9eff2be90.jpg",
+    "static/media/opiate.jpg": "/20th-street-recovery/static/media/opiate.50ac4a1dc9d5dd27cf5a.jpg",
+    "static/media/kratom.jpg": "/20th-street-recovery/static/media/kratom.b47dc625f99c8e4d1f97.jpg",
     "static/media/icon1.png": "/20th-street-recovery/static/media/icon1.3c3c28dde4710e22b21a.png",
     "static/media/icon2.png": "/20th-street-recovery/static/media/icon2.a5c33226b89a8a81e856.png",
     "static/media/icon3.png": "/20th-street-recovery/static/media/icon3.40ddbe883c7e575c3e5c.png",
-    "static/media/card2-3.jpg": "/20th-street-recovery/static/media/card2-3.6e0e8a14c4f2b3323b60.jpg",
-    "static/media/card2-2.jpg": "/20th-street-recovery/static/media/card2-2.2b322fd7011e4e779458.jpg",
-    "static/media/card2-1.jpg": "/20th-street-recovery/static/media/card2-1.0eccd05879d84c70c453.jpg",
     "static/media/united-healthcare.png": "/20th-street-recovery/static/media/united-healthcare.78400c2f51fba67d0aff.png",
     "static/media/horizon.png": "/20th-street-recovery/static/media/horizon.93f9071008042e378717.png",
     "static/media/umr.png": "/20th-street-recovery/static/media/umr.0e284d15516d535bf42b.png",
@@ -60,11 +72,11 @@
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves-wrap.svg": "/20th-street-recovery/static/media/waves-wrap.4ae987f3d360a0143503ff66c1aadbe8.svg",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.6d2ab54a.css.map": "/20th-street-recovery/static/css/main.6d2ab54a.css.map",
-    "main.793bdb26.js.map": "/20th-street-recovery/static/js/main.793bdb26.js.map"
+    "main.0f1644e1.css.map": "/20th-street-recovery/static/css/main.0f1644e1.css.map",
+    "main.aa8f9075.js.map": "/20th-street-recovery/static/js/main.aa8f9075.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d2ab54a.css",
-    "static/js/main.793bdb26.js"
+    "static/css/main.0f1644e1.css",
+    "static/js/main.aa8f9075.js"
   ]
 }
