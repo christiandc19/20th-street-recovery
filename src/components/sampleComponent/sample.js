@@ -8,7 +8,7 @@ const sample = () => {
 
 <div className='sample'>
             <Fade right>
-                <h1 className='sample-header'>THE BEST OUTPATIENT TREATMENT CENTER IN LOS ANGELES CALIFORNIA</h1>
+                <h1 className='sample-header'> The Best Outpatient Treatment Center in Los Angeles</h1>
             </Fade>
 
 <Fade bottom>
