@@ -1,24 +1,77 @@
-.insuranceLogosContainer {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.InsuranceSection {
+    width: 100%;
+    position: relative;
+    padding: 5rem 0;
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
+}
+
+.InsuranceSection .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
-    padding: 3rem 0rem;
+    gap: 3rem;
+    width: 100%;
+    padding: 2rem 0;
 }
 
-
-.InsuranceSectionHeader {
+.InsuranceSection-container {
     text-align: center;
-    padding: 3rem;
+    padding: 25px;
 }
 
-.call {
-    width: 500px;
-    margin: auto;
-    margin: 1rem  auto -3rem auto;
+.InsuranceSection-container p {
+        padding: 1rem 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+.InsuranceSection h1 {
     padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.call img {
+.insurance-thumbnail {
+    width: 200px;
+}
+
+.insurance-thumbnail img {
     width: 100%;
 }
+
+.InsuranceSection .flex-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.insuranceSection-btn button {
+    margin: 1rem auto;
+}
+
+
+@media  screen and (max-width:940px) {
+    .InsuranceSection-container h1 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+
+    .InsuranceSection-container p {
+        font-size: 14px;
+    }
+
+    .team img {
+        width: 350px;
+    }
+
+    .insurance-thumbnail {
+        width: 100px;
+    }
+
+}
+
+
+
+
+
+

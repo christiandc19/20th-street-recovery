@@ -26,13 +26,27 @@ const Whoweare = () => {
 
         <Fade right>
             <div className="left">
-            <p> You may have lost your way but here you won’t get lost in the crowd. 20th Street Recovery is an inviting, home-like environment where compassionate clinicians and staff members work collaboratively with you to address your unique needs. Rooted in the 12-step philosophy and a trauma-informed, evidence-based approach, we’ll show you how to manage and live with addiction, co-occurring disorders and other underlying issues, like anxiety or depression. Surrounded by a supportive recovery community, you’ll heal internally and, in turn, heal your relationships. Find your footing here and get ready for the next phase of your life. </p>
+                <h3>WHY CHOOSE US</h3>
+                <h1>Focusing on you, with the best therapeutic care.</h1>
+                <p> 
+                <ul>
+                    <li>
+                        <FaRegStar className='star'/> A comprehensive medical assessment by a doctor to create an individualized treatment plan.
+                    </li>
+                    <li>
+                        <FaRegStar className='star'/> Urine tests and other lab tests.
+                    </li>
+                    <li>
+                        <FaRegStar className='star'/> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
+                    </li><br />
+                </ul>
+                </p>
             </div>
         </Fade>
 
         <Fade left>
             <div className="right">
-                <img src={Whoweare1}  alt="Conselling Session with a patient" loading="lazy" />
+                {/* <img src={Whoweare1}  alt="Conselling Session with a patient" loading="lazy" /> */}
             </div>
         </Fade>
 
@@ -46,35 +60,13 @@ const Whoweare = () => {
     <div className='wrap2'>
 
 
-        <Fade left>
-            <div className="right">
-                <img src={Whoweare2}  alt="Conselling Session with a patient" loading="lazy" />
-            </div>
-        </Fade>
-
         <Fade right>
-            <div className="left">
-
-                <p>
-                <h3>EVALUATIONS </h3><br />
-                These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.
-                </p><br />
-
-                <p>
-                <ul>
-                    <li>
-                        <FaRegStar className='star'/> A comprehensive medical assessment by a doctor to create an individualized treatment plan.
-                    </li>
-                    <li>
-                        <FaRegStar className='star'/> Urine tests and other lab tests.
-                    </li>
-                    <li>
-                        <FaRegStar className='star'/> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.
-                    </li><br />
-                </ul>
-                Once a client is assessed, the drug detox process will occur under stringent medical supervision at our treatment facility. Medical supervision and guidance help clients feel safe and comfortable while the body rids itself of drugs and alcohol and provides physical and mental support throughout the withdrawal process. We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.
-                </p>
+            <div className='wrap2-container'>
+                <div className="content">
+                    <h1>A healthier choice for a healthier you. </h1>
+                    <p>We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.</p>
                 </div>
+            </div>
         </Fade>
     </div>
 
