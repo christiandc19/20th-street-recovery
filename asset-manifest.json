@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.0f1644e1.css",
-    "main.js": "/20th-street-recovery/static/js/main.aa8f9075.js",
+    "main.css": "/20th-street-recovery/static/css/main.eada90ce.css",
+    "main.js": "/20th-street-recovery/static/js/main.be6b1ac7.js",
     "static/media/slider1.jpg": "/20th-street-recovery/static/media/slider1.60abeebaaca72ee69398.jpg",
-    "static/media/group.png": "/20th-street-recovery/static/media/group.12db5d8a58e586e23126.png",
+    "static/media/slider5.png": "/20th-street-recovery/static/media/slider5.dab67a0b2170ba4de3e3.png",
     "static/media/whoweare2.png": "/20th-street-recovery/static/media/whoweare2.025ef9f8907bd8572510.png",
     "static/media/hero-image.png": "/20th-street-recovery/static/media/hero-image.36c4c9cf6f2e95eefe94.png",
     "static/media/slider2.jpg": "/20th-street-recovery/static/media/slider2.1b6009f43c3f232e2b26.jpg",
-    "static/media/slider5.png": "/20th-street-recovery/static/media/slider5.fb98d6f0eb77edaf4a8d.png",
     "static/media/hero-bg-1.jpg": "/20th-street-recovery/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
     "static/media/nav-logo.png": "/20th-street-recovery/static/media/nav-logo.a73e71833578fdf63b51.png",
     "static/media/home1.png": "/20th-street-recovery/static/media/home1.36fcbba2b792f74810e0.png",
@@ -61,22 +60,27 @@
     "static/media/prescription.jpg": "/20th-street-recovery/static/media/prescription.34f9364a2ca9eff2be90.jpg",
     "static/media/opiate.jpg": "/20th-street-recovery/static/media/opiate.50ac4a1dc9d5dd27cf5a.jpg",
     "static/media/kratom.jpg": "/20th-street-recovery/static/media/kratom.b47dc625f99c8e4d1f97.jpg",
+    "static/media/umr.png": "/20th-street-recovery/static/media/umr.90b117cc78229ef7c5f9.png",
     "static/media/icon1.png": "/20th-street-recovery/static/media/icon1.3c3c28dde4710e22b21a.png",
     "static/media/icon2.png": "/20th-street-recovery/static/media/icon2.a5c33226b89a8a81e856.png",
     "static/media/icon3.png": "/20th-street-recovery/static/media/icon3.40ddbe883c7e575c3e5c.png",
-    "static/media/united-healthcare.png": "/20th-street-recovery/static/media/united-healthcare.78400c2f51fba67d0aff.png",
-    "static/media/horizon.png": "/20th-street-recovery/static/media/horizon.93f9071008042e378717.png",
-    "static/media/umr.png": "/20th-street-recovery/static/media/umr.0e284d15516d535bf42b.png",
-    "static/media/aetna.png": "/20th-street-recovery/static/media/aetna.ba1c7baa5f90d207ae2b.png",
-    "static/media/bluecross.png": "/20th-street-recovery/static/media/bluecross.2f180be7d5ab799101c3.png",
+    "static/media/anthem.png": "/20th-street-recovery/static/media/anthem.e3f48eec6f2f57746acb.png",
+    "static/media/beacon.png": "/20th-street-recovery/static/media/beacon.75cac72646ba394a6ac9.png",
+    "static/media/bluecross.png": "/20th-street-recovery/static/media/bluecross.c9a35529b077716e6ed0.png",
+    "static/media/optum.png": "/20th-street-recovery/static/media/optum.de349dabe21ac26a99f2.png",
+    "static/media/cigna.png": "/20th-street-recovery/static/media/cigna.bb1cb3b6bb9b97dec5d2.png",
+    "static/media/optima.png": "/20th-street-recovery/static/media/optima.a1db662590e6c9452a3e.png",
+    "static/media/horizon.png": "/20th-street-recovery/static/media/horizon.334f88ff25440b6a7b9c.png",
+    "static/media/united-healthcare.png": "/20th-street-recovery/static/media/united-healthcare.3232942dcd76167b3bca.png",
+    "static/media/aetna.png": "/20th-street-recovery/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves-wrap.svg": "/20th-street-recovery/static/media/waves-wrap.4ae987f3d360a0143503ff66c1aadbe8.svg",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.0f1644e1.css.map": "/20th-street-recovery/static/css/main.0f1644e1.css.map",
-    "main.aa8f9075.js.map": "/20th-street-recovery/static/js/main.aa8f9075.js.map"
+    "main.eada90ce.css.map": "/20th-street-recovery/static/css/main.eada90ce.css.map",
+    "main.be6b1ac7.js.map": "/20th-street-recovery/static/js/main.be6b1ac7.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f1644e1.css",
-    "static/js/main.aa8f9075.js"
+    "static/css/main.eada90ce.css",
+    "static/js/main.be6b1ac7.js"
   ]
 }
