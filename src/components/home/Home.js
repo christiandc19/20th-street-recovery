@@ -5,6 +5,7 @@ import ContactForm from '../contact/ContactForm';
 import Cards from '../servicesCards/Cards';
 import Conditions from '../conditions/Conditions';
 import Sample from '../../components/sampleComponent/sample'
+import MissionHome from '../mission/MissionHome';
 
 const home = () => {
   return (
@@ -14,6 +15,7 @@ const home = () => {
     <Sample />
     <Whoweare />
     <InsuranceSection />
+    <MissionHome />
     <ContactForm />
     </>
   )

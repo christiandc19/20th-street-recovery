@@ -44,7 +44,9 @@ const Cards = () => {
       <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse">
+            <div className='tile-btn'>
             <button>Learn More</button>
+            </div>
         </Link>
     </LinkRoll>
     </div>
@@ -63,7 +65,9 @@ const Cards = () => {
   <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/jobs">
+        <div className='tile-btn'>
             <button>Learn More</button>
+            </div>
         </Link>
     </LinkRoll>
 

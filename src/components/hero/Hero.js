@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
 
@@ -20,10 +21,13 @@ const Hero = () => {
 
     <div className="hero-container">
         <div className="content">
-        
+            
+                <Fade left>
                 <h1 className="animate-charcter">20TH STREET RECOVERY</h1>
+                </Fade>
+                <Fade right>
                 <h2 className='subtitle'>Substance Abuse Addiction Treatment Facility</h2>
-                
+                </Fade>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to="/contact">
                         <div className='hero-btn'>
