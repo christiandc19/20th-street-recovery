@@ -22,13 +22,13 @@
   }
 
   .mission-home .mission-home-content  {
-    top: 15%;
+    top: 20%;
   }
 
 .mission-home .mission-home-content h1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: var(--primary-color);
+    color: white;
     padding: 2rem;
     font-size: 3rem;
 }
@@ -38,6 +38,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     padding: 1rem;
+    font-size: 16px;
 }
 
 .mission-home h2 {
@@ -45,7 +46,7 @@
     text-align: center;
     padding: 2rem;
     font-family: 'Kaushan Script', cursive;
-    color: rgb(207, 95, 4);
+    color: white;
 }
 
 
