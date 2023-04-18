@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.db3c241b.css",
-    "main.js": "/20th-street-recovery/static/js/main.bc00252a.js",
+    "main.css": "/20th-street-recovery/static/css/main.52b2542e.css",
+    "main.js": "/20th-street-recovery/static/js/main.748b7834.js",
     "static/media/slider1.jpg": "/20th-street-recovery/static/media/slider1.60abeebaaca72ee69398.jpg",
     "static/media/treatment-1.jpg": "/20th-street-recovery/static/media/treatment-1.f465a5990f1587284cac.jpg",
     "static/media/mission-home.jpg": "/20th-street-recovery/static/media/mission-home.228b5d8e12d0e09d6bb2.jpg",
@@ -71,11 +71,11 @@
     "static/media/aetna.png": "/20th-street-recovery/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.db3c241b.css.map": "/20th-street-recovery/static/css/main.db3c241b.css.map",
-    "main.bc00252a.js.map": "/20th-street-recovery/static/js/main.bc00252a.js.map"
+    "main.52b2542e.css.map": "/20th-street-recovery/static/css/main.52b2542e.css.map",
+    "main.748b7834.js.map": "/20th-street-recovery/static/js/main.748b7834.js.map"
   },
   "entrypoints": [
-    "static/css/main.db3c241b.css",
-    "static/js/main.bc00252a.js"
+    "static/css/main.52b2542e.css",
+    "static/js/main.748b7834.js"
   ]
 }
