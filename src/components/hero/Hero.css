@@ -3,12 +3,9 @@
 
   .hero {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: rgba(13, 14, 13, 0.5);  }
+  }
   
   .hero:before {
     content: '';
@@ -19,9 +16,20 @@
     z-index: -1;
   }
 
+  .man {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    width: 550px;
+  }
+
+  .man img {
+    width: 100%;
+  }
 
 .hero .hero-container {
     left: 5%;
+    top: 40%;
     margin: auto;
     position: relative;
     align-items: left;
@@ -31,34 +39,18 @@
 
 
 .hero h1 {
-    font-size: 5rem;
-    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    color: rgb(53, 117, 214);
     font-family: 'Montserrat', sans-serif;
+    line-height: 3.5rem;
 }
 
 .hero h2 {
     font-size: 1.5rem;
-    color: rgb(255, 255, 255);
-    margin: 0 1rem;
+    color: rgb(218, 111, 23);
+    padding: 1rem 0;
     text-transform: uppercase;
 }
-
-
-/* .hero-btn button {
-    background-color: rgba(255, 255, 255, 0.733);
-    color: black;
-    border-radius: 1px;
-    border: none;
-}
-
-.hero-btn button:hover {
-    background-color: rgba(0, 0, 0, 0.658);
-    color: white;
-    font-weight: 300;
-} */
-
-
-
 
 
 .btn-white {
@@ -150,20 +142,41 @@
 
 @media screen and (max-width:940px) {
 
-
+  .hero .hero-container {
+    left: 0%;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+}
 
     .hero h1 {
-        font-size: 4rem;
+        font-size: 3rem;
+        text-align: center;
+        line-height: 3rem;
     }
 
     .hero h2 {
-        font-size: 18px;
+        font-size: 16px;
+        text-align: center;
     }
 
     .hero p {
         font-size: 16px;
+        text-align: center;
+
     }
 
+
+}
+
+@media screen and (max-width:700px) {
+
+  .man {
+    position: absolute;
+    right: 0%;
+    bottom: 5;
+    width: 90%;
+  }
 
 
 }
