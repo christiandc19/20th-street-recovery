@@ -21,6 +21,7 @@
     right: 10%;
     bottom: 0;
     width: 550px;
+    height: 85%;
   }
 
   .man img {
@@ -174,8 +175,7 @@
   .man {
     position: absolute;
     right: 0%;
-    bottom: 5;
-    width: 90%;
+    width: 100%;
   }
 
 
