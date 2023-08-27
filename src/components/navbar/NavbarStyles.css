@@ -6,7 +6,7 @@
     height: auto;
     position: absolute;
     z-index: 10;
-    background: rgba(159, 67, 172, 0);
+    background: rgba(17, 17, 17, 0.158);
     padding: 1rem 0;
 }
 
@@ -49,16 +49,15 @@
 }
 
 .navbar li {
-    font-size: 13px;
     width: max-content;
-    padding: .5rem 1rem;
+    padding: .5rem .7rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
 .navbar li a {
-  color: rgb(247, 243, 243);
+  color: rgb(243, 240, 236);
   font-size: 1rem;
 }
 
@@ -99,7 +98,7 @@
 
 
   
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1200px) {
     .navbar .hamburger {
         display: block;
         z-index: 15;
