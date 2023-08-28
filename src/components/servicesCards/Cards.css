@@ -47,6 +47,47 @@
   color: rgb(207, 95, 4);
 }
 
+.card {
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h5 {
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+
+.card-btn button {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.card-btn button:hover {
+  background-color: rgb(211, 120, 16);
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tile
 {
   width:300px;
