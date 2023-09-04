@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/20th-street-recovery/static/css/main.37ae105d.css",
+    "main.css": "/20th-street-recovery/static/css/main.4fe1e7ff.css",
     "main.js": "/20th-street-recovery/static/js/main.de4000f7.js",
     "static/media/slider1.jpg": "/20th-street-recovery/static/media/slider1.60abeebaaca72ee69398.jpg",
     "static/media/treatment-1.jpg": "/20th-street-recovery/static/media/treatment-1.f465a5990f1587284cac.jpg",
@@ -71,11 +71,11 @@
     "static/media/aetna.png": "/20th-street-recovery/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/20th-street-recovery/index.html",
     "static/media/waves.svg": "/20th-street-recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.37ae105d.css.map": "/20th-street-recovery/static/css/main.37ae105d.css.map",
+    "main.4fe1e7ff.css.map": "/20th-street-recovery/static/css/main.4fe1e7ff.css.map",
     "main.de4000f7.js.map": "/20th-street-recovery/static/js/main.de4000f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.37ae105d.css",
+    "static/css/main.4fe1e7ff.css",
     "static/js/main.de4000f7.js"
   ]
 }
