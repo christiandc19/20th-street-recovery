@@ -62,12 +62,11 @@
     border: 1px solid #fff;
     min-height: 50px;
     padding: 0 20px;
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
     z-index: 1;
     position: relative;
     background-color: transparent;
-    margin: 2rem 0;
   }
 
   .btn-white:hover {
