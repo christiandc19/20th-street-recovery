@@ -2,9 +2,9 @@
 
 .method {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  background: rgba(18, 19, 18, 0.281);  }
+  background: rgba(0, 0, 0, 0.24);  }
 
 .method:before {
   content: '';
@@ -15,16 +15,17 @@
   z-index: -1;
 }
   
-  .method-container {
-    top: 35%;
-    position: relative;
+  .method-content {
+    top: 50%;
+    left: 5%;
+    position: absolute;
 }
 
 
-.method-content-left h1{
+.method-content h1{
   text-align: center;
-  color: rgb(230, 230, 230);
-  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
 }
 
 /* MEDIA QUERIES - HERO */
@@ -33,7 +34,16 @@
 
 .method h1 {
     font-size: 3rem;
+    text-align: center;
 }
+
+.method-content {
+  width: 100%;
+  top: 70%;
+  left: 0%;
+  position: absolute;
+}
+
 
 
 

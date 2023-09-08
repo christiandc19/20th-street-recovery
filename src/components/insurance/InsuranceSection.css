@@ -1,41 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .InsuranceSection {
     width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0);
     position: relative;
-    padding: 5rem 0;
-    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
-}
+  }
+  
+  .InsuranceSection:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.03;
+  }
+  
 
 .InsuranceSection .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
     width: 100%;
-    padding: 2rem 0;
+    padding: 1rem  0 3rem 0;
+
 }
 
 .InsuranceSection-container {
     text-align: center;
-    padding: 25px;
+
 }
 
 .InsuranceSection-container p {
-        padding: 1rem 0;
+        padding: 1rem;
         font-family: 'Montserrat', sans-serif;
     }
 
 .InsuranceSection h1 {
-    padding: 1rem;
+    padding: 1rem 0 0 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 .insurance-thumbnail {
-    width: 200px;
+    width: 100px;
 }
 
 .insurance-thumbnail img {
     width: 100%;
+    filter: grayscale(1);
+}
+
+.insurance-thumbnail img:hover {
+    filter: grayscale(0);
 }
 
 .InsuranceSection .flex-right {

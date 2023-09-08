@@ -11,7 +11,7 @@ const Mission = () => {
         <div className='mission main-menu'>
                 <div className="mission-content">
                     <Fade top>
-                    <h1>MISSION</h1>
+                    <h1>ABOUT US</h1>
                     </Fade>
                 </div>
             </div>

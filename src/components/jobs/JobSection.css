@@ -1,55 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-
-.job-section {
-    width: 100%;
-    position: relative;
-    background: rgba(255, 255, 255, 0);
+.jobs-container {
+    padding: 5rem 0 5rem 0;
+    background: #ffffff;
 }
 
-.job-section .content {
-    flex-wrap: wrap;
+.wrapper-content {
+    display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: center;
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
 }
 
-.job-section p {
-    font-family: 'Montserrat', sans-serif;
+.jobs-left {
+    width: 50%;
+    text-align: center;
+}
+
+.jobs-left img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.jobs-right {
+    width: 600px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+
+.jobs-right h2 {
+    font-size: 1.5rem;
+    color: #1aa5db;
+}
+
+.jobs-right h1 {
+    text-transform: uppercase;
+    color: #111111;
+    font-size: 1rem;
+    letter-spacing: 8px; 
+}
+
+.jobs-right p {
+    line-height: 25px;
     text-align: justify;
-    color: rgb(0, 0, 0);
-    margin: 1rem;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.job-section h1 {
-    padding: 2rem 0;
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--primary-color);
 }
 
 
 
-@media screen and (max-width: 940px) {
-    .job-section {
+@media screen and (max-width:1250px)  {
+    .jobs-right {
         width: 100%;
+        padding: 1rem 2rem;
     }
 
-    .job-section h1 {
-        font-size: 25px;
+    .jobs-right h1, .jobs-right h2, .jobs-right p {
+        text-align: center;
     }
 
-    .job-section p {
-        font-size: 15px;
+    .jobs-right h2 {
+        font-size: 2rem;
     }
+
 }
 
-
-
-
-
+@media screen and (max-width:940px) {
+    .jobs-left {
+        width: 100vw;
+    }
+    .jobs-left img {
+        padding: 2rem;
+    }
+}
 

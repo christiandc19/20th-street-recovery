@@ -3,7 +3,10 @@ import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import SA from '../components/SA/SA'
-import SASection from '../components/SA/SASection'
+import Conditions from '../components/conditions/Conditions';
+import InsuranceSection from '../components/insurance/InsuranceSection';
+import ContactForm from '../components/contact/ContactForm'
+
 
 
 const SAbuse = () => {
@@ -11,7 +14,9 @@ const SAbuse = () => {
     <>
     <Navbar /> 
     <SA />
-    <SASection />
+    <Conditions />
+    <InsuranceSection />
+    <ContactForm />
     <Footer />
      </>
   )

@@ -1,7 +1,6 @@
 import React from 'react'
 import './MissionSection.css'
 import Fade from 'react-reveal/Fade';
-import ContactForm from '../contact/ContactForm'
 
 import Therapy from '../../assets/therapy.jpg'
 import Staff from '../../assets/staff.jpg'
@@ -14,7 +13,6 @@ const MissionSection = () => {
     return (
         <>
         <div className='mission-section container'>
-        <h1>YOUR HEALTH, OUR MISSION</h1>
         <p>We seek to provide the highest quality care for any addiction situation to create long-term sobriety in a safe and effective environment built on love, acceptance, and tolerance. We work every day to create addict programming that gives you the time and tools needed to live a sober life today, and then vigorously push you to fulfill your dreams tomorrow. </p>
             <div>
                 <div className="content">
@@ -55,8 +53,6 @@ const MissionSection = () => {
                 </div>
             </div>
         </div>
-
-        <ContactForm />
 
 </>
     )

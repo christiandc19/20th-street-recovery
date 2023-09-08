@@ -11,11 +11,12 @@
   .contact-container:before {
     content: '';
     position: absolute;
-    background: url('../../assets/contact-form-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/contact-form-bg2.png') no-repeat center center/cover;
     height: 50%;
     width: 100%;
     z-index: -1;
     top: 25%;
+    opacity: 0.2;
   }
   
   .get_form_inner {

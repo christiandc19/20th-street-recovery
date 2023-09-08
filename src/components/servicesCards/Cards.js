@@ -13,7 +13,7 @@ const Cards = () => {
 
     <div className='main-cards-header container'>
       <h1>WELCOME TO 20TH STREET RECOVERY</h1>
-      <h2>“Taking a step today will help you lead a better tomorrow.”</h2>
+      <h2>“Set yourself on the right path moving forward.”</h2>
 
     </div>
 
@@ -27,9 +27,6 @@ const Cards = () => {
                   <p>At 20th Street Recovery Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
               </div>
             
-
-
-
 
               <div class="card">
               <img src={Card1} alt="Mental Health" loading="lazy"/>

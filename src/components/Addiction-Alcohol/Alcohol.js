@@ -10,13 +10,13 @@ const Alcohol = () => {
     return (
         <>
         <div className='alcohol'>
-            <div className='hero-divider'>
+        <div className='hero-divider'>
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
-                <div className="sa-content">
+                <div className="alcohol-content">
                     <Fade top>
-                    <h3>- ADDICTION</h3>
-                    <h1>ALCOHOLISM</h1>
+                        <h1>ALCOHOL ADDICTION</h1>
+                        <h3>SUBSTANCE ABUSE</h3>
                     </Fade>
             </div>
         </div>

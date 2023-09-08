@@ -21,10 +21,8 @@ const InsuranceSection = () => {
         <>
         <div className='InsuranceSection'>
             <div className="InsuranceSection-container">
-                <div>
                 <h1>WE WORK WITH MAJOR INSURANCE GROUPS</h1>
                 <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
-                </div>
                 <div className="content container">
 
                             <Fade bottom>

@@ -6,8 +6,10 @@
     height: auto;
     position: absolute;
     z-index: 10;
-    background: rgba(17, 17, 17, 0.158);
+    background: rgba(0, 0, 0, 0.336);
     padding: 1rem 0;
+    border-bottom: rgba(247, 242, 242, 0.877) .1rem solid;
+    border-top: rgba(247, 242, 242, 0.877) .1rem solid;
 }
 
 .navbar .navbar-container {
@@ -18,7 +20,8 @@
 }
 
 .navbar-logo {
-  width: 200px;
+  width: 270px;
+  padding: 1rem;
 }
 
 .navbar-logo img {
@@ -146,6 +149,10 @@
 
       .navbar .navbar-container {
         justify-content: space-between;
+      }
+
+      .navbar-logo {
+        width: 200px;
       }
 
 }

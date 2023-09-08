@@ -24,7 +24,7 @@ const Hero = () => {
                 <h1 className="animate-charcter">20th<br /> Street <br />Recovery</h1>
                 </Fade>
                 <Fade right>
-                <h2 className='subtitle'>Substance Abuse Addiction Treatment Facility</h2>
+                <h2 className='subtitle'>Detox and Residential Treatment Center</h2>
                 </Fade>
 
 

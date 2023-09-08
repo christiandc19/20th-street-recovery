@@ -32,11 +32,8 @@
 .hero .hero-container {
     left: 5%;
     top: 40%;
-    margin: auto;
     position: relative;
-    align-items: left;
-    text-align: left;
-    width: 100%;
+    width: max-content;
 }
 
 

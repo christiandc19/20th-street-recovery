@@ -1,8 +1,8 @@
 
 
 .conditions-props img {
-width: 150px;
-border: 2px solid rgb(77, 78, 78);
+width: 100px;
+border: 2px solid rgb(15, 187, 187);
 border-radius: 12rem;
 z-index: -1;
 }

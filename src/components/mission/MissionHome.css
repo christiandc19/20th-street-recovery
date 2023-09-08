@@ -14,7 +14,7 @@
   .mission-home:before {
     content: '';
     position: absolute;
-    background: url('../../assets/mission-home.jpg') no-repeat center top/cover;
+    background: url('../../assets/mission-home.jpeg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

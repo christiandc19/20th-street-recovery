@@ -7,19 +7,15 @@ const Method = () => {
     return (
         <>
 
-        <div className='method main-menu'>
-
-
-<div className='method-container'>
+        <div className='method'>
                     <div className="method-content">
                         <Fade left>
-                            <div className='method-content-left'>
-                                <h1>OUR METHOD</h1>
+                            <div>
+                                <h1>DETOX PROGRAMS</h1>
                             </div>
                         </Fade>
 
                     </div>
-</div>
                 </div>
         </>
     )

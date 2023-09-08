@@ -8,17 +8,20 @@ import Wave from '../../assets/waves.svg'
 
 const Oxycodone = () => {
     return (
-        <div className='oxycodone submenu'>
+        <>
+        <div className='oxycodone'>
             <div className='hero-divider'>
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
                 <div className="oxycodone-content">
                     <Fade top>
-                    <h3>- ADDICTION</h3>
-                    <h1>OXYCODONE</h1>
+                    <h1>OXYCODONE ADDICTION</h1>
+                    <h3>SUBSTANCE ABUSE</h3>
+
                     </Fade>
             </div>
         </div>
+        </>
     )
 }
 
