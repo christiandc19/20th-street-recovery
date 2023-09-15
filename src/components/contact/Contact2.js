@@ -69,7 +69,7 @@ const ContactForm = () => {
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
-          <div class="text-one">info@20thstreetdetox.com</div>
+          <div class="text-one">info@20thstreetdetox.biz</div>
         </div>
       </div>
 
