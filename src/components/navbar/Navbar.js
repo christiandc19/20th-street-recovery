@@ -72,7 +72,7 @@ const Navbar = () => {
 
                     <li><Link to='/detox'>Detox</Link> </li>
                     <li><Link to='/about-us'>About Us</Link> </li>
-                    <li><Link to='/residence'>Residence</Link> </li>
+                    {/* <li><Link to='/residence'>Residence</Link> </li> */}
                     <li><Link to='/jobs'>Jobs Program</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
