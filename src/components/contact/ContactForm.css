@@ -69,7 +69,7 @@ input {
   }
 
   input[type="submit"]:hover {
-    background-color: rgb(190, 126, 6);
+    background-color: rgb(54, 153, 156);
     border-color: var(--secondary-color);
     color: #fff;
   }

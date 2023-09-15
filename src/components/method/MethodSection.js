@@ -48,7 +48,7 @@ const MethodSection = () => {
 
                     < div className='method-section-right2'>
 
-                        <h1>INPATIENT PROGRAMS</h1>
+                        <h1>OUTPATIENT PROGRAMS</h1>
                         <h5>PHP (Mental Health and Addiction)</h5>
                         <ul>
                             <li><BsDot/> A more intense, comprehensive treatment approach than IOP, available every day of the week.</li>
@@ -74,6 +74,12 @@ const MethodSection = () => {
 
                 </div>
 
+
+                <div className='method-section-header'>
+                    <h1>Begin Your Journey with Our Comprehensive Addiction Detox Program</h1>
+                    <p>It's important to note that detox is just the initial step in the recovery process. Following detox, individuals typically transition to further treatment such as residential rehabilitation, outpatient programs, counseling, and support groups to address the psychological and behavioral aspects of addiction.</p><br/>
+                    <p>Remember, the most effective detox program depends on the specific needs and circumstances of the individual. Consulting with our healthcare professionals or addiction specialists can provide tailored recommendations. Always seek professional guidance when considering a detox program.</p>
+                </div>
 
 
             </div>
