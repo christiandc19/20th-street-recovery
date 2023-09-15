@@ -11,7 +11,7 @@ const KratomSection = () => {
                 <div className='kratom-section-flex'>
 
                   <div className='kratom-section-left'>
-                    <h1>KRATOM ADDICTION</h1><br/>
+                    <h1>KRATOM ADDICTION</h1>
                     <p>Kratom (a.k.a. Ketum, kakuam, or biak) is an herbal substance derived from the leaf of a Southeast Asian tree. Although it is relatively new on the scene and estimated kratom usage in the United States is not clear, it has been used as a traditional remedy in Southeast Asia for centuries.
                     <br/>Users of kratom feel a stimulating sensation similar to those associated with opioids (relaxation, euphoria, relief). Kratom is typically ingested by capsule or by mixing in a drink. It produces an opioid-like sensation that begins place quickly, almost immediately.<br/></p>
                   </div>

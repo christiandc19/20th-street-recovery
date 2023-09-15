@@ -26,6 +26,7 @@
 
 .alcohol-section-header h1 {
   padding: 1rem 0;
+  font-size: 1rem;
 }
 
 .alcohol-section-content {
@@ -46,6 +47,7 @@
 .alcohol-section-left h1 {
   padding: 1rem 0;
   text-align: left;
+  font-size: 1rem;
 }
 
 .alcohol-section-right {

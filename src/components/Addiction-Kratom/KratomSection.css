@@ -26,6 +26,7 @@
 
 .kratom-section-header h1 {
   padding: 1rem 0;
+  font-size: 1rem;
 }
 
 .kratom-section-header p {
@@ -57,6 +58,11 @@
 .kratom-section-left {
   width: 50%;
   margin: auto;
+}
+
+.kratom-section-left h1 {
+  padding: 1rem 0;
+  font-size: 1rem;
 }
 
 .kratom-section-right {

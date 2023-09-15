@@ -2,7 +2,7 @@
 
 .prescriptions {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background: rgba(0, 0, 0, 0.575);
     position: relative;
   }
@@ -26,7 +26,7 @@
 .prescriptions .prescriptions-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 50%;
     padding: 1rem;
 }
 
