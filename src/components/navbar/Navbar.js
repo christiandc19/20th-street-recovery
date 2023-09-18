@@ -52,7 +52,7 @@ const Navbar = () => {
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> ADDICTION<FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Addiction Treatment<FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol Addiction</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine Addiction</NavLink> </li>
@@ -70,7 +70,32 @@ const Navbar = () => {
                     </li>
 
 
-                    <li><Link to='/detox'>Detox</Link> </li>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Detox Programs<FiChevronDown /> </Link>
+                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-heroin`}> Heroin Detox </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-alcohol`}> Alcohol Detox </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-cocaine`}> Cocaine Detox </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-benzodiazepines`}> Benzodiazepines </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-methamphetamine`}> Methamphetamine </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-marijuana`}> Marijuana Detox </NavLink> </li>
+                        </ul>
+                    </li>
+
+
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Substance Abuse<FiChevronDown /> </Link>
+                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse`}> Commonly Abused Drugs</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/prescriptions`}> Prescription Addiction</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opiate`}> Opiate Addiction</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/opioid`}> Opioid Addiction</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/benzodiazepines`}> Benzodiazepines</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/stimulant`}> Stimulant Drugs </NavLink> </li>
+                        </ul>
+
+                    </li>
+
+
+                    {/* <li><Link to='/detox'>Detox</Link> </li> */}
                     <li><Link to='/about-us'>About Us</Link> </li>
                     {/* <li><Link to='/residence'>Residence</Link> </li> */}
                     <li><Link to='/jobs'>Jobs Program</Link> </li>

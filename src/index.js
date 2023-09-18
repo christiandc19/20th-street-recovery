@@ -23,6 +23,18 @@ import OPIOID from './routes/OPIOID';
 import OXYCODONE from './routes/OXYCODONE';
 import PRESCRIPTIONS from './routes/PRESCRIPTIONS';
 import XANAX from './routes/XANAX';
+import BENZODIAZEPINES from './routes/BENZODIAZEPINES';
+import STIMULANT from './routes/STIMULANT';
+
+
+
+import DetoxHeroin from './routes/DetoxHeroin';
+import DetoxAlcohol from './routes/DetoxAlcohol';
+import DetoxCocaine from './routes/DetoxCocaine';
+import DetoxBenzodiazepines from './routes/DetoxBenzodiazepines';
+import DetoxMethamphetamine  from './routes/DetoxMethamphetamine';
+import DetoxMarijuana  from './routes/DetoxMarijuana';
+
 
 
 import Jobs from './routes/JOBS';
@@ -32,7 +44,7 @@ import SA from './routes/SA';
 ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''} >
     <Routes>
-      <Route exact path='/' element={<App />} />
+      <Route exact path='/'element={<App />} />
       <Route exact path='/alcohol' element={<ALCOHOL />} />
       <Route exact path='/cocaine' element={<COCAINE />} />
       <Route exact path='/fentanyl' element={<FENTANYL />} />
@@ -45,6 +57,19 @@ ReactDOM.render(
       <Route exact path='/oxycodone' element={<OXYCODONE />} />
       <Route exact path='/prescriptions' element={<PRESCRIPTIONS />} />
       <Route exact path='/xanax' element={<XANAX />} />
+      <Route exact path='/benzodiazepines' element={<BENZODIAZEPINES />} />
+      <Route exact path='/stimulant' element={<STIMULANT />} />
+
+
+
+      <Route exact path='/detox-heroin' element={<DetoxHeroin />} />
+      <Route exact path='/detox-alcohol' element={<DetoxAlcohol />} />
+      <Route exact path='/detox-cocaine' element={<DetoxCocaine />} />
+      <Route exact path='/detox-benzodiazepines' element={<DetoxBenzodiazepines />} />
+      <Route exact path='/detox-Methamphetamine' element={<DetoxMethamphetamine />} />
+      <Route exact path='/detox-Marijuana' element={<DetoxMarijuana />} />
+
+
 
       <Route exact path='/substance-abuse' element={<SA />} />
 

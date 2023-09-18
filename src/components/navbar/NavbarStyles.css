@@ -49,15 +49,14 @@
     height: 100%;
     align-items: center;
     display: flex;
-    /* padding: 2rem 0; */
+    padding: 2rem 0;
 }
 
 .navbar li {
     width: max-content;
-    padding: .5rem .7rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
+    padding: .5rem .7rem;
 }
 
 .navbar li a {
@@ -66,27 +65,26 @@
 }
 
   .menu-item .sub__menus li a {
-    color: #353535;
+    color: #f5eeee;
     font-size: 13px;
-    padding: -1rem ;
+    padding: .5rem 0;
   }
 
   .menu-item .sub__menus li a:hover {
     color: rgb(255, 123, 0) !important;
   }
 
+
 /* -----------------------------------------------------> SUB MENU */
 .sub__menus {
     position: absolute;
     display: none;
-    background: white;
-    border: 1px solid lavender;
-    border-radius: 10px;
-    width: 240px;
-    left: -17px;
-    padding: 2px 0 0 0;
-    margin-top: 6px;
+    background: rgb(46, 46, 48);
+    border: none;
+    width: auto;
+    margin-top: 0;
     z-index: 1000;
+
   }
 
   /* -----------------------------------------------------> DROPDOWN ARROW */
@@ -134,19 +132,16 @@
 
     .menu-item .sub__menus li a {
         font-size: 14px;
+        text-align: left;
       }
 
       li .submenu-header {
         font-size: 14px;
       }
 
-      #submenu-item li {
+      /* #submenu-item li {
         padding: .2rem 1rem;
-      }
-
-      .sub__menus {
-        width: 250px;
-      }
+      } */
 
       .navbar .navbar-container {
         justify-content: space-between;

@@ -2,6 +2,7 @@ import React from 'react'
 import { BsDot } from 'react-icons/bs';
 
 import './PrescriptionsSection.css'
+import Prescription1 from '../../assets/prescription-section1.jpg'
 
 const PrescriptionsSection = () => {
   return (
@@ -30,7 +31,7 @@ const PrescriptionsSection = () => {
             </div>
 
             <div className='prescriptions-section-right'>
-            <img src='https://sunset-rehab.s3.us-west-1.amazonaws.com/xanax-addiction.jpg' alt="activities" />
+              <img src={Prescription1} alt="Prescription" />
             </div>
     </div>
 
