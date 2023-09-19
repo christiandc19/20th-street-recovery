@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.mat-section {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.mat-section:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.03;
+}
+
+.mat-section-header {
+  text-align: left;
+  padding: 1rem;
+}
+
+.mat-section-header h1 {
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+
+.mat-section-content {
+  padding: 1rem;
+}
+
+.mat-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.mat-section-left {
+  width: 50%;
+  margin: auto;
+}
+
+.mat-section-left h1 {
+  padding: 1rem 0;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.mat-section-right {
+  width: 500px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+}
+
+.mat-section-right img {
+  width: 100%;
+  border-radius: 15px;
+  padding: .5rem;
+}
+
+.mat-section-left h5 {
+  padding: 1rem 0;
+  color: rgb(201, 140, 8);
+}
+
+.mat-section-header h5 {
+  padding: 1rem 0;
+  color: rgb(201, 140, 8);
+}
+
+
+/* FLEX 2  */
+
+.mat-section-flex2 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.mat-section-left2 {
+  width: 500px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  padding: .5rem;
+}
+
+.mat-section-left2 img {
+  width: 100%;
+  margin: auto;
+}
+
+.mat-section-right2 {
+  width: 50%;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .mat-section-flex {
+    flex-wrap: wrap;
+  }
+  
+  .mat-section-left {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .mat-section-right {
+    width: 100%;
+    margin: auto;
+  }
+
+
+  .mat-section-flex2 {
+    flex-wrap: wrap;
+  }
+  
+  .mat-section-left2 {
+    width: 100%;
+  }
+  
+  .mat-section-right2 {
+    width: 100%;
+  }
+
+
+
+  .mat-section-left h1 {
+    text-align: center;
+  }
+  
+  }

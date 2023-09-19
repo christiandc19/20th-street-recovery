@@ -19,7 +19,9 @@
   opacity: 0.03;
 }
 
-
+.mat-section-flex {
+  margin-top: 3rem;
+}
 .opiate-section-header {
   text-align: left;
   padding: 1rem;
@@ -83,8 +85,6 @@
   padding: .5rem;
 }
 
-
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
@@ -101,10 +101,6 @@
   .opiate-section-right {
     width: 100%;
     margin: auto;
-  }
-
-  .opiate-section-left h1 {
-    text-align: center;
   }
   
   }

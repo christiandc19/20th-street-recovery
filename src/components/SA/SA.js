@@ -8,7 +8,7 @@ const SA = () => {
 
                 <div className="sa-content">
                     <Fade top>
-                    <h1>COMMONLU ABUSED DRUGS</h1>
+                    <h1>COMMON ABUSED DRUGS</h1>
                     </Fade>
             </div>
         </div>

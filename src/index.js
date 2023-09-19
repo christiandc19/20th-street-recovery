@@ -26,6 +26,8 @@ import XANAX from './routes/XANAX';
 import BENZODIAZEPINES from './routes/BENZODIAZEPINES';
 import STIMULANT from './routes/STIMULANT';
 
+import MAT from './routes/MAT';
+import ITA from './routes/ITA';
 
 
 import DetoxHeroin from './routes/DetoxHeroin';
@@ -60,6 +62,8 @@ ReactDOM.render(
       <Route exact path='/benzodiazepines' element={<BENZODIAZEPINES />} />
       <Route exact path='/stimulant' element={<STIMULANT />} />
 
+      <Route exact path='/medication-assisted-treatment' element={<MAT />} />
+      <Route exact path='/individualize-treatment-alternatives' element={<ITA />} />
 
 
       <Route exact path='/detox-heroin' element={<DetoxHeroin />} />
