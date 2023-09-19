@@ -31,11 +31,9 @@ const Hero = () => {
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to="/contact">
 
-
                         <div className="btn-white">
                             <button>CONTACT US</button>
                         </div>
-                    
                     
                     </Link>
                 </LinkRoll>

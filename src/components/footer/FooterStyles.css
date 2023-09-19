@@ -66,11 +66,13 @@
 
 .col {
     text-align: center;
+    width: 30%;
 }
 
 .footer h3 {
     margin: 1rem 0 2rem 0;
     text-transform: uppercase;
+    color: rgb(243, 180, 6);
 }
 
 
@@ -150,3 +152,10 @@
 }
 
 
+
+@media screen and (max-width: 600px) {
+    .col {
+        width: 100%;
+    }
+
+}

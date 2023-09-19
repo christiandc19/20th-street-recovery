@@ -31,9 +31,8 @@
 
 .hero .hero-container {
     left: 5%;
-    top: 40%;
-    position: relative;
-    width: max-content;
+    bottom: 20%;
+    position: absolute;
 }
 
 
@@ -184,5 +183,9 @@
     width: 100%;
     padding: 0 1rem;
   }
+
+  .hero .hero-container {
+    bottom: 10%;
+}
 
 }

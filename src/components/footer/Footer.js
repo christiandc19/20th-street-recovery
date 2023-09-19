@@ -54,8 +54,15 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
+                    <div className="col">
+                        <h3>Location</h3>
+                        <p>1045 20th St, Los Angeles CA 90011</p>
+                        <p>info@20thstreetdetox.biz</p>
+                        <p> +1 (323) 579-2196</p>
+                    </div>
+
                 </div>
-                <p className='copyright'><p>&copy; 20th Street Detox. All rights reserved.</p></p>
+                <p className='copyright'><p>&copy; 2023 20th Street Detox. All rights reserved.</p></p>
 
 
             </div>
