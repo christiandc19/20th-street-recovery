@@ -9,22 +9,23 @@
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
+    padding: 1rem;
 }
 
 .jobs-left {
-    width: 50%;
-    text-align: center;
+    width: 500px;
+    margin: auto;
 }
 
 .jobs-left img {
-    width: 80%;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
 .jobs-right {
     width: 600px;
     margin: auto;
-    padding: 0 2rem;
 }
 
 
@@ -53,7 +54,7 @@
         padding: 1rem 2rem;
     }
 
-    .jobs-right h1, .jobs-right h2, .jobs-right p {
+    .jobs-right h1, .jobs-right h2 {
         text-align: center;
     }
 

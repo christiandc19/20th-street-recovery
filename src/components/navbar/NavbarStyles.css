@@ -26,6 +26,7 @@
 
 .navbar-logo img {
   width: 100%;
+  height: auto;
 }
 
 .navbar .icon {

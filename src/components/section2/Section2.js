@@ -28,7 +28,7 @@ const Section2 = () => {
                     <div className='section2-left'>
                     <div className='section2-left-content'>
                             <div className='text'>
-                                <h5>Get Treatment That's Right For You</h5>
+                                <h1>Get Treatment That's Right For You</h1>
                                 <p>With a higher level of resident support and accountability, our resident-centered approach advances the healing of you. Once you complete detoxification, your treatment starts with a minimum 25 hours of clinical treatment per week.</p>
                             </div>
                             
@@ -42,7 +42,7 @@ const Section2 = () => {
                     <div className='section2-right'>
                         <div className='section2-right-content'>
                             <div className='text'>
-                                <h5>Address Your Emotions</h5>
+                                <h1>Address Your Emotions</h1>
                                 <p>Weekly group sessions focused on increasing self-esteem. Stay ready for whatever life throws at you and explore how your thoughts, experiences, and behavior affect your emotions.</p>
                             </div>
                             
@@ -63,7 +63,7 @@ const Section2 = () => {
                                 <img src={Circle3} alt="Replapse sign" loading="lazy" />
                             </div>
                             <div className='text2'>
-                                <h5>Prevent Relapse</h5>
+                                <h1>Prevent Relapse</h1>
                                 <p>Ability to recognize the signs and symptoms of relapse is the key to relapse prevention. We help you identify and learn about alternate behavioral patterns to help you avoid situations that could trigger a relapse.</p>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ const Section2 = () => {
                             </div>
 
                             <div className='text2'>
-                                <h5>Strengthen Family Dynamics</h5>
+                                <h1>Strengthen Family Dynamics</h1>
                                 <p>20th Street is also a chance for you and your loved ones to process how addiction affects everyone in a support system. At with us, family members and others in your support system are encouraged to participate in group and individual counseling.</p>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ const Section2 = () => {
                     <div className='section2-left-content'>
 
                             <div className='text'>
-                                <h5>Monitor Your Progress</h5>
+                                <h1>Monitor Your Progress</h1>
                                 <p>We store extensive records of your individual treatment plan in a secure digital archive, which gets updated every 30 days, or as you meet your objectives or your needs change.</p>
                             </div>
                             
@@ -107,7 +107,7 @@ const Section2 = () => {
                     <div className='section2-right'>
                         <div className='section2-right-content'>
                             <div className='text'>
-                                <h5>Incidental Medical Services (IMS)</h5>
+                                <h1>Incidental Medical Services (IMS)</h1>
                                 <p>We offer Access to Incidental Medical Services to address medical issues associated with detoxification and the provision of addiction treatment while you focus on long-term recovery. <br/><br/>*IMS does not include the provision of general primary medical care.</p>
                             </div>
                             

@@ -49,6 +49,7 @@
 
 .insurance-thumbnail img {
     width: 100%;
+    height: auto;
     filter: grayscale(1);
 }
 
