@@ -2,6 +2,7 @@
 
 .conditions-props img {
 width: 100px;
+height: auto;
 border: 2px solid rgb(15, 187, 187);
 border-radius: 12rem;
 z-index: -1;

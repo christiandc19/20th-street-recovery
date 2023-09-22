@@ -23,7 +23,7 @@ const Cards = () => {
 
             <div class="card-wrap">
                 <div className='cards-header-left'>
-                  <h3>20th Street Recovery makes getting treatment <span>possible.</span></h3><br/>
+                  <h1>20th Street Recovery makes getting treatment <span>possible.</span></h1><br/>
                   <p>At 20th Street Recovery Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
               </div>
             
@@ -31,7 +31,7 @@ const Cards = () => {
               <div class="card">
               <img src={Card1} alt="Mental Health" loading="lazy"/>
               <div class="card-body">
-                <h5 class="card-title">ADDICTION TREATMENT</h5>
+                <h1 class="card-title">ADDICTION TREATMENT</h1>
                 <p class="card-text">Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time.</p>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to="/substance-abuse">
@@ -47,7 +47,7 @@ const Cards = () => {
             <div class="card">
               <img src={Card2} alt="Mental Health" loading="lazy"/>
               <div class="card-body">
-                <h5 class="card-title">JOB ASSISTANCE</h5>
+                <h1>JOB ASSISTANCE</h1>
                 <p class="card-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to="/jobs">

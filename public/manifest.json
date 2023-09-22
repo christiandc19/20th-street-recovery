@@ -1,6 +1,6 @@
 {
   "short_name": "20th Street Detox",
-  "name": "Create React App Sample",
+  "name": "Comprehensive Substance Abuse Detox Program - Find Hope and Healing",
   "icons": [
     {
       "src": "favicon.ico",
@@ -15,7 +15,8 @@
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
