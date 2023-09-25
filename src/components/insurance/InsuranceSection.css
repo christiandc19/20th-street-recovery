@@ -1,50 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.InsuranceSection {
+.insurance-section {
     width: 100%;
     height: auto;
     background: rgba(0, 0, 0, 0);
     position: relative;
   }
   
-  .InsuranceSection:before {
+  .insurance-section:before {
     content: '';
     position: absolute;
-    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/section-bg.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
     opacity: 0.03;
   }
   
+  .insurance-section-content {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
 
-.InsuranceSection .content {
+.insurance-section-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     width: 100%;
-    padding: 1rem  0 3rem 0;
+    padding: 2rem 0;
 
 }
 
-.InsuranceSection-container {
-    text-align: center;
 
-}
-
-.InsuranceSection-container p {
-        padding: 1rem;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-.InsuranceSection h1 {
+.insurance-section h1 {
     padding: 1rem 0 0 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 .insurance-thumbnail {
     width: 100px;
+    height: auto;
 }
 
 .insurance-thumbnail img {
@@ -57,36 +53,23 @@
     filter: grayscale(0);
 }
 
-.InsuranceSection .flex-right {
+.insurance-section .flex-right {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.insuranceSection-btn button {
+.insurance-section-btn button {
     margin: 1rem auto;
 }
 
 
 @media  screen and (max-width:940px) {
-    .InsuranceSection-container h1 {
-        font-size: 1.5rem;
-        padding: 1rem 0;
-    }
 
 
-    .InsuranceSection-container p {
+    .insurance-section-container p {
         font-size: 14px;
     }
-
-    .team img {
-        width: 350px;
-    }
-
-    .insurance-thumbnail {
-        width: 100px;
-    }
-
 }
 
 

@@ -10,7 +10,7 @@
   .detox-marijuana:before {
     content: '';
     position: absolute;
-    background: url('../../assets/detox-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/detox-mj-bg.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -26,8 +26,8 @@
 .detox-marijuana .detox-marijuana-content {
     display: block;
     position: absolute;
-    top: 50%;
-    right: 10%;
+    bottom: 20%;
+    left: 10%;
     padding: 1rem;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .detox-marijuana .detox-marijuana-content {
-    right: 0%;
+    left: 0%;
     width: 100%;
 }
 

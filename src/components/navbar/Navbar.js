@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo-wh.png'
-import {FiChevronDown } from "react-icons/fi";
+import {AiOutlineCaretDown } from "react-icons/ai";
 
 import './NavbarStyles.css'
 
@@ -52,15 +52,16 @@ const Navbar = () => {
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Addiction Treatment<FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Addiction Treatment<AiOutlineCaretDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/medication-assisted-treatment`}> Medication Assisted Treatment</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/individualize-treatment-alternatives`}> Individualize Treatment Alternatives</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/dual-diagnosis`}> Dual Diagnosis Treatment</NavLink> </li>
                         </ul>
                     </li>
 
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Detox Programs<FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Detox Programs<AiOutlineCaretDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-heroin`}> Heroin Detox </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/detox-alcohol`}> Alcohol Detox </NavLink> </li>
@@ -72,7 +73,7 @@ const Navbar = () => {
                     </li>
 
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Substance Abuse<FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Substance Abuse<AiOutlineCaretDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse`}> Commonly Abused Drugs</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/prescriptions`}> Prescriptions Addiction</NavLink> </li>

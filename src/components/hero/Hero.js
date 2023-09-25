@@ -3,7 +3,7 @@ import './Hero.css'
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
-import man from '../../assets/man.png'
+import man from '../../assets/man.webp'
 
 
 const Hero = () => {

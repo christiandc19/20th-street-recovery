@@ -2,7 +2,7 @@ import React from 'react'
 import { BsDot } from 'react-icons/bs';
 
 import './OpiateSection.css'
-import Opiate1 from '../../assets/opiate-section1.jpg'
+import Opiate1 from '../../assets/opiate-section1.webp'
 
 const OpiateSection = () => {
   return (

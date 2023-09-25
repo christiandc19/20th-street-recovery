@@ -1,7 +1,7 @@
 import React from 'react'
 import './StimulantSection.css'
 import { BsDot } from 'react-icons/bs';
-import Stimulant1 from '../../assets/stimulant-section1.jpg'
+import Stimulant1 from '../../assets/stimulant-section1 .webp'
 
 const StimulantSection = () => {
   return (

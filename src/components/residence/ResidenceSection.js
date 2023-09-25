@@ -1,18 +1,18 @@
 import React from 'react'
 import ContactForm from '../contact/ContactForm'
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 import './ResidenceSection.css'
 
 
-import Home1 from '../../assets/home1.png'
-import Home2 from '../../assets/home2.png'
-import Home3 from '../../assets/home3.png'
-import Home4 from '../../assets/home4.png'
-import Home5 from '../../assets/home5.png'
-import Home6 from '../../assets/home6.png'
-import Home7 from '../../assets/home7.png'
-import Home8 from '../../assets/home8.png'
+// import Home1 from '../../assets/home1.png'
+// import Home2 from '../../assets/home2.png'
+// import Home3 from '../../assets/home3.png'
+// import Home4 from '../../assets/home4.png'
+// import Home5 from '../../assets/home5.png'
+// import Home6 from '../../assets/home6.png'
+// import Home7 from '../../assets/home7.png'
+// import Home8 from '../../assets/home8.png'
 
 
 
@@ -27,7 +27,7 @@ const ResidenceSection = () => {
 </div>
 
 
-
+{/* 
 
 <div className='flex-right container'>
                     <Fade left>
@@ -79,7 +79,7 @@ const ResidenceSection = () => {
                     </div>
                     </Fade>  
 
-                    </div>
+                    </div> */}
 
 
 <ContactForm />

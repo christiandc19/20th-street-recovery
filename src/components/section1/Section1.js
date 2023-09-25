@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section1.css'
-import img1 from "../../assets/section1-img1.jpg";
+import img1 from "../../assets/section1-img1.webp";
 
 
 const Section1 = () => {

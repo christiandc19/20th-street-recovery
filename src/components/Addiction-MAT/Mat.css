@@ -10,7 +10,7 @@
   .mat:before {
     content: '';
     position: absolute;
-    background: url('../../assets/mat-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/mat-bg.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -26,12 +26,12 @@
 .mat .mat-content {
     display: block;
     position: absolute;
-    top: 50%;
+    bottom: 20%;
     padding: 1rem;
 }
 
 .mat h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
@@ -48,9 +48,11 @@
 
 .mat h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
 .mat h3 {
     font-size: 1rem;
+    text-align: center;
 }
 }

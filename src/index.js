@@ -28,6 +28,7 @@ import STIMULANT from './routes/STIMULANT';
 
 import MAT from './routes/MAT';
 import ITA from './routes/ITA';
+import DD from './routes/DualDiagnosis';
 
 
 import DetoxHeroin from './routes/DetoxHeroin';
@@ -64,6 +65,7 @@ ReactDOM.render(
 
       <Route exact path='/medication-assisted-treatment' element={<MAT />} />
       <Route exact path='/individualize-treatment-alternatives' element={<ITA />} />
+      <Route exact path='/dual-diagnosis' element={<DD />} />
 
 
       <Route exact path='/detox-heroin' element={<DetoxHeroin />} />
