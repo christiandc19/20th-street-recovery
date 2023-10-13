@@ -3,7 +3,7 @@ import './DetoxHeroinSection.css'
 import { BsDot } from 'react-icons/bs';
 
 
-import detoxSection1 from '../../assets/detox-section1.jpg'
+import detoxSection1 from '../../assets/detox-section1.webp'
 
 const HeroinDetoxSection = () => {
   return (

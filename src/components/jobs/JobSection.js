@@ -1,7 +1,7 @@
 import React from 'react'
 import './JobSection.css'
 
-import wrapper1 from "../../assets/jobs.jpg";
+import wrapper1 from "../../assets/jobs.webp";
 
 const JobSection = () => {
     return (

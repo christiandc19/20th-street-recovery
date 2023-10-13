@@ -3,7 +3,7 @@ import './DetoxBenzodiazepinesSection.css'
 import { BsDot } from 'react-icons/bs';
 
 
-import detoxSection1 from '../../assets/benzo-section1.jpg'
+import detoxSection1 from '../../assets/benzo-section1.webp'
 
 const BenzodiazepinesDetoxSection = () => {
   return (

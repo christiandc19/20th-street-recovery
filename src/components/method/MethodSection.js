@@ -1,6 +1,6 @@
 import React from 'react'
-import TreatmentImage1 from '../../assets/method-section1.jpg'
-import TreatmentImage2 from '../../assets/method-section2.jpg'
+import TreatmentImage1 from '../../assets/method-section1.webp'
+import TreatmentImage2 from '../../assets/method-section2.webp'
 import { BsDot } from 'react-icons/bs';
 
 import './MethodSection.css'

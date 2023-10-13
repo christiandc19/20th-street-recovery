@@ -8,10 +8,6 @@ import Beacon from '../../assets/beacon.webp'
 import Bluecross from '../../assets/bluecross.webp'
 import Cigna from '../../assets/cigna.webp'
 import Horizon from '../../assets/horizon.webp'
-import UMR from '../../assets/umr.webp'
-import United from '../../assets/united-healthcare.webp'
-import Optima from '../../assets/optima.webp'
-import Optum from '../../assets/optum.webp'
 import Anthem from '../../assets/anthem.webp'
 
 
@@ -54,30 +50,6 @@ const InsuranceSection = () => {
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
                                 <InsuranceLogos Image={Horizon}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={UMR}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={United}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Optima}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Optum}/>
                                 </div>
                             </Fade>
 
